@@ -4,135 +4,172 @@
   
   <url>
     <loc>/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
   </url>
   
   <url>
     <loc>/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
   </url>
   
   <url>
     <loc>/about/</loc>
+    <lastmod>2020-04-29T15:20:55-04:00</lastmod>
   </url>
   
   <url>
     <loc>/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/bacc-thesis/</loc>
+    <lastmod>2020-04-30T17:42:53-04:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/code/ncfdown/ncfdown/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/code/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/code/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r-markdown/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>/publication-type/7/</loc>
+    <lastmod>2020-04-30T17:42:53-04:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
+    <lastmod>2020-04-30T17:42:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/tag/moral-foundations/</loc>
+    <lastmod>2020-04-30T17:42:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/jennifer-lin/</loc>
+    <loc>/tag/political-psychology/</loc>
+    <lastmod>2020-04-30T17:42:53-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
+    <lastmod>2020-04-30T17:42:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-30T17:42:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/code/ncfdown/ncfdown/</loc>
+    <lastmod>2020-04-30T09:29:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-04-30T09:29:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/code/</loc>
+    <lastmod>2020-04-30T09:29:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r/</loc>
+    <lastmod>2020-04-30T09:29:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r-markdown/</loc>
+    <lastmod>2020-04-30T09:29:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/example/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-04-29T15:20:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/privacy/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/terms/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/demo/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/external-project/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/internal-project/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-04-30T09:07:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/code/</loc>
+    <lastmod>2020-04-30T09:07:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/</loc>
+    <lastmod>2020-04-29T15:20:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jennifer-lin/</loc>
+    <lastmod>2020-04-30T17:42:53-04:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/</loc>
+    <lastmod>2020-04-29T15:20:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2020-04-28T08:17:20-04:00</lastmod>
   </url>
   
   <url>
     <loc>/research/</loc>
+    <lastmod>2020-04-29T15:20:55-04:00</lastmod>
   </url>
   
 </urlset>
