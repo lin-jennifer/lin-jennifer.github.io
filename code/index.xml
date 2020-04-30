@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Projects and Packages | Jennifer Lin</title>
+    <link>/code/</link>
+      <atom:link href="/code/index.xml" rel="self" type="application/rss+xml" />
+    <description>Code Projects and Packages</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Code Projects and Packages</title>
+      <link>/code/</link>
+    </image>
+    
+    <item>
+      <title>`ncfdown`: A R Markdown Template for New College of Florida</title>
+      <link>/code/ncfdown/ncfdown/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/code/ncfdown/ncfdown/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;This template was made based off the style created by &lt;a href=&#34;https://github.com/holtzy&#34;&gt;Yan Holtz&lt;/a&gt; in the &lt;a href=&#34;https://github.com/holtzy/epuRate&#34;&gt;epuRate&lt;/a&gt; template. Thank you for your inspiration and assistance in creating this template&lt;/em&gt;&lt;/p&gt;
+&lt;div id=&#34;demo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Demo&lt;/h2&gt;
+&lt;p&gt;See it in action here: &lt;a href=&#34;https://lin-jennifer.github.io/ncfdown/&#34; class=&#34;uri&#34;&gt;https://lin-jennifer.github.io/ncfdown/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;using-this-template&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Using this Template&lt;/h2&gt;
+&lt;p&gt;Install this template using &lt;code&gt;devtools&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;library(devtools)
+install_github(&amp;quot;lin-jennifer/ncfdown&amp;quot;)
+library(ncfdown)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;package-options&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Package Options&lt;/h2&gt;
+&lt;p&gt;For this package, there are several options under the &lt;code&gt;output:&lt;/code&gt; category on the &lt;code&gt;YAML&lt;/code&gt;:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;code&gt;ncf&lt;/code&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ncfweb&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
