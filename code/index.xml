@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code Projects and Packages | Jennifer Lin</title>
-    <link>/code/</link>
-      <atom:link href="/code/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lin-jennifer.github.io/code/</link>
+      <atom:link href="https://lin-jennifer.github.io/code/index.xml" rel="self" type="application/rss+xml" />
     <description>Code Projects and Packages</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lin-jennifer.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Code Projects and Packages</title>
-      <link>/code/</link>
+      <link>https://lin-jennifer.github.io/code/</link>
     </image>
     
     <item>
       <title>`ncfdown`: A R Markdown Template for New College of Florida</title>
-      <link>/code/ncfdown/ncfdown/</link>
+      <link>https://lin-jennifer.github.io/code/ncfdown/ncfdown/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/code/ncfdown/ncfdown/</guid>
+      <guid>https://lin-jennifer.github.io/code/ncfdown/ncfdown/</guid>
       <description>
 
 
@@ -36,7 +36,7 @@ library(ncfdown)&lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Package Options&lt;/h2&gt;
 &lt;p&gt;For this package, there are several options under the &lt;code&gt;output:&lt;/code&gt; category on the &lt;code&gt;YAML&lt;/code&gt;:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;code&gt;ncf&lt;/code&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ncf&lt;/code&gt;: Demo&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ncfweb&lt;/code&gt;:&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
