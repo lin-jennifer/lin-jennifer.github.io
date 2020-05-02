@@ -5,12 +5,38 @@
     <link>https://lin-jennifer.github.io/category/code/</link>
       <atom:link href="https://lin-jennifer.github.io/category/code/index.xml" rel="self" type="application/rss+xml" />
     <description>Code</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lin-jennifer.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lin-jennifer.github.io/images/icon_hu8ab3a8955374d0f37b63df1bbf185005_20489_512x512_fill_lanczos_center_2.png</url>
       <title>Code</title>
       <link>https://lin-jennifer.github.io/category/code/</link>
     </image>
+    
+    <item>
+      <title>`ncfposter`: A `tikzposter` for New College of Florida</title>
+      <link>https://lin-jennifer.github.io/code/ncfposter/ncfposter/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/code/ncfposter/ncfposter/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;The poster template is based off the &lt;a href=&#34;https://www.overleaf.com/latex/templates/uw-madison-poster-template/tfbyxyhbymsq&#34;&gt;UW–Madison Poster&lt;/a&gt; on Overleaf.&lt;/em&gt;&lt;/p&gt;
+&lt;div id=&#34;demo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Demo&lt;/h2&gt;
+&lt;p&gt;The outcome of the poster can be seen here: &lt;a href=&#34;https://github.com/lin-jennifer/NCFPoster/blob/master/main.pdf&#34; class=&#34;uri&#34;&gt;https://github.com/lin-jennifer/NCFPoster/blob/master/main.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;using-this-template&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Using this Template&lt;/h2&gt;
+&lt;p&gt;The best way to use this template is to clone the GitHub repositiory in the link at the top of the post or &lt;a href=&#34;https://github.com/lin-jennifer/NCFPoster&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you choose to delete some of the demo objects in the file in favor of your own materials, be sure to include the following items&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;code&gt;main.tex&lt;/code&gt;: The root file that contains the temaplate for the poster seen in the demo. You can rename this to be whatever you like.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ncftheme.sty&lt;/code&gt;: Contains the code for the colors and the design that the poster needs&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Images/&lt;/code&gt;: This serves as the established graphics path and contains the New College logo for the top of the poster.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>`ncfdown`: A R Markdown Template for New College of Florida</title>
@@ -31,13 +57,39 @@
 &lt;pre&gt;&lt;code&gt;library(devtools)
 install_github(&amp;quot;lin-jennifer/ncfdown&amp;quot;)
 library(ncfdown)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By downloading the package, the source for the template can be accessed by using &lt;code&gt;File&lt;/code&gt; → &lt;code&gt;New File&lt;/code&gt; → &lt;code&gt;R Markdown&lt;/code&gt; → &lt;code&gt;From Template&lt;/code&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;package-options&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Package Options&lt;/h2&gt;
 &lt;p&gt;For this package, there are several options under the &lt;code&gt;output:&lt;/code&gt; category on the &lt;code&gt;YAML&lt;/code&gt;:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;code&gt;ncf&lt;/code&gt;: Demo&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ncfweb&lt;/code&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ncf&lt;/code&gt;: This option provides a basic structure for HTML documents knitted out of an R Markdown document. Simply note &lt;code&gt;ncfdown::ncf&lt;/code&gt; under the output option to activate this template.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ncfweb&lt;/code&gt;: Consult the &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html&#34;&gt;R Studio Handbook&lt;/a&gt; for how to create a website. This option provides a design for an R Markdown based website. It differs from the &lt;code&gt;ncf&lt;/code&gt; option in three ways:
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Author and Date in footer only rather than under the title&lt;/li&gt;
+&lt;li&gt;Removes code folding option and code folding button on the upper-right-hand corner on each page&lt;/li&gt;
+&lt;li&gt;Removes GitHub triangle in upper right-hand corner&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To switch between the two versions of this package, simply edit the &lt;code&gt;YAML&lt;/code&gt; such that the one under &lt;code&gt;ncf&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;output:
+  ncfdown::ncf:
+    toc: TRUE
+    number_sections: FALSE
+    code_folding: &amp;quot;hide&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;would become this under &lt;code&gt;ncfweb&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;output:
+  ncfdown::ncfweb:
+    toc: TRUE
+    number_sections: FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;contributing-to-this-package&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Contributing to this Package&lt;/h2&gt;
+&lt;p&gt;To help me improve this package, please reach out using the following methods:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:jenniferlin2025@u.northwestern.edu&#34;&gt;jenniferlin2025@u.northwestern.edu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Send a message via the &lt;a href=&#34;https://lin-jennifer.github.io/#contact&#34;&gt;Contact&lt;/a&gt; tab&lt;/li&gt;
+&lt;li&gt;Open a pull request on the project GitHub: &lt;a href=&#34;https://github.com/lin-jennifer/ncfdown&#34; class=&#34;uri&#34;&gt;https://github.com/lin-jennifer/ncfdown&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
