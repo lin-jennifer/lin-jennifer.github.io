@@ -103,6 +103,7 @@
 &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blogdown book&lt;/a&gt;, which I recommend looking through if you choose Blogdown, suggests a 10 minute curve for users not familiar with code in CSS or JavaScript, but my personal experience showed that it took a lot longer for me to get accustomed to the site and framework.&lt;/p&gt;
 &lt;p&gt;However, the good news is that once you get over the learning curve, it is quite easy to edit and innovate your Academic site.&lt;/p&gt;
 &lt;h2 id=&#34;what-i-learned&#34;&gt;What I Learned&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Please note that this list was based on the structure of Version 4.9. I will continue to update this list as I learn more&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;As I discussed earlier, there can be a learning curve to the site. In the rest of this post, I will attempt to document all the tips I found handy in my process of getting accustomed to the site. In this process, I assume that you are using Blogdown and have 
 &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read the book&lt;/a&gt; to know how to 
 &lt;a href=&#34;https://bookdown.org/yihui/blogdown/other-themes.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;initiate an Academic site&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -127,6 +128,10 @@
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;explained here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;When building with Blogdown and deplaying to GitHub pages, I recommend using a two repository system where one serves as the &lt;code&gt;source&lt;/code&gt; and the other is the publish directory. This is because there are some challenges for GitHub pages to get along with Hugo.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; For this website, I have a source repository where I make my edits and publish it to my website directory (&lt;code&gt;lin-jennifer.github.io&lt;/code&gt;). You can use this system by adding &lt;code&gt;publishDir = &amp;quot;../USERNAME.github.io&amp;quot;&lt;/code&gt; to your &lt;code&gt;config.toml&lt;/code&gt; file, where &lt;code&gt;USERNAME&lt;/code&gt; is your GitHub username.&lt;/li&gt;
 &lt;li&gt;Unless you have a good reason for why you need the &lt;code&gt;.Rmd&lt;/code&gt;, use standard &lt;code&gt;.md&lt;/code&gt; files for posts. It makes inserting images and other shortcuts more straightforward.&lt;/li&gt;
+&lt;li&gt;When inserting things, it is probably easier to use 
+&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo shortcodes&lt;/a&gt; and 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic-specific shortcodes&lt;/a&gt; rather than standard Markdown methods of inserting images, videos, embeds and others.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Patience.&lt;/strong&gt; Your site won&amp;rsquo;t update immediately after &lt;code&gt;update.sh&lt;/code&gt; tells you that it has been pushed to GitHub. It will take a hot minute&amp;hellip;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;going-forward&#34;&gt;Going Forward&lt;/h2&gt;
 &lt;p&gt;As I keep saying throughout this piece, there are many ways that one can use, create and edit Academic. If there is something that you know that would make editing and creating content easier, please 
