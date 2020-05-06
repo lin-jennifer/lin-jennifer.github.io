@@ -242,7 +242,7 @@
     
       <meta property="article:published_time" content="2020-05-03T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-05-05T11:25:16-04:00">
+    <meta property="article:modified_time" content="2020-05-06T11:17:23-04:00">
   
 
   
@@ -271,7 +271,7 @@
   "headline": "Websites using Academic: What I Learned and What I Wish I Knew",
   
   "datePublished": "2020-05-03T00:00:00Z",
-  "dateModified": "2020-05-05T11:25:16-04:00",
+  "dateModified": "2020-05-06T11:17:23-04:00",
   
   "author": {
     "@type": "Person",
@@ -659,7 +659,7 @@
           Last updated on
       
     
-    May 5, 2020
+    May 6, 2020
   </span>
   
 
@@ -746,10 +746,10 @@
 <li>Regardless of the approach you use to create and edit your site, <em><strong>DO NOT TOUCH</strong></em> the <code>themes/</code> folder in your site source. You can mirror the file structure under the <code>themes/</code> folder to create your own content, as 
 <a href="https://sourcethemes.com/academic/docs/page-builder/" target="_blank" rel="noopener">explained here</a>.</li>
 <li>When building with Blogdown and deplaying to GitHub pages, I recommend using a two repository system where one serves as the <code>source</code> and the other is the publish directory. This is because there are some challenges for GitHub pages to get along with Hugo.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> For this website, I have a source repository where I make my edits and publish it to my website directory (<code>lin-jennifer.github.io</code>). You can use this system by adding <code>publishDir = &quot;../USERNAME.github.io&quot;</code> to your <code>config.toml</code> file, where <code>USERNAME</code> is your GitHub username.</li>
-<li>Unless you have a good reason for why you need the <code>.Rmd</code>, use standard <code>.md</code> files for posts. It makes inserting images and other shortcuts more straightforward. Additionally, Academic <strong>recomments that the <code>.Rmarkdown</code> file extension be used for anything with R content</strong> in lieu of <code>.Rmd</code>.</li>
+<li>Unless you have a good reason for why you need the <code>.Rmd</code>, use standard <code>.md</code> files for posts. Additionally, Academic <strong>recomments that the <code>.Rmarkdown</code> file extension be used for anything with R content</strong> in lieu of <code>.Rmd</code>.</li>
 <li>When inserting things, it is probably easier to use 
 <a href="https://gohugo.io/content-management/shortcodes/" target="_blank" rel="noopener">Hugo shortcodes</a> and 
-<a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/#icons" target="_blank" rel="noopener">Academic-specific shortcodes</a> rather than standard Markdown methods of inserting images, videos, embeds and others.</li>
+<a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/#icons" target="_blank" rel="noopener">Academic-specific shortcodes</a> rather than standard Markdown methods of inserting images, videos, embeds and others. If you do use standard Markdown syntax, especially for images, place the content in the <code>static/</code> folder.</li>
 <li><strong>Patience.</strong> Your site won&rsquo;t update immediately after <code>update.sh</code> tells you that it has been pushed to GitHub. It will take a hot minute&hellip;</li>
 </ol>
 <h2 id="going-forward">Going Forward</h2>
