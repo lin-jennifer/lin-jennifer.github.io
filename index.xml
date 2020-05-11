@@ -63,28 +63,6 @@
     </item>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://lin-jennifer.github.io/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://lin-jennifer.github.io/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Websites using Academic: What I Learned and What I Wish I Knew</title>
       <link>https://lin-jennifer.github.io/post/websites-using-academic/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
@@ -237,10 +215,58 @@ library(ncfdown)
     </item>
     
     <item>
+      <title>Democrats and Republicans Communicate Different Moral Values through their 2016 National Convention Speeches</title>
+      <link>https://lin-jennifer.github.io/talk/moraltext/</link>
+      <pubDate>Wed, 15 Apr 2020 10:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/talk/moraltext/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What It Is and What We Can Be$:$ Using Social Norms to Influence Intergroup Attitudes and Behaviors</title>
+      <link>https://lin-jennifer.github.io/talk/norms/</link>
+      <pubDate>Tue, 06 Aug 2019 09:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/talk/norms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scott, Nelson, DeSantis, Gillum &amp; Beyond$:$ A Look at 2018 Florida Precinct Returns</title>
       <link>https://lin-jennifer.github.io/publication/fl18vote/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/publication/fl18vote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Levels of Conceptualization and Perceptions of Sophistication in Political Discourse</title>
+      <link>https://lin-jennifer.github.io/talk/levels/</link>
+      <pubDate>Sat, 06 Apr 2019 11:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/talk/levels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Will God&#39;s Grace Guide My Vote?</title>
+      <link>https://lin-jennifer.github.io/talk/religiousprimes/</link>
+      <pubDate>Fri, 05 Apr 2019 14:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/talk/religiousprimes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ask Only What Your Country Can Do for You$:$ Group Interests, Constituency Characteristics, and Demands for Representation</title>
+      <link>https://lin-jennifer.github.io/talk/demands/</link>
+      <pubDate>Sat, 02 Mar 2019 15:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/talk/demands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Color, Size, and the Effectiveness of Direct Mail$:$ A Study on Voter Turnout in a Local Election</title>
+      <link>https://lin-jennifer.github.io/talk/mail/</link>
+      <pubDate>Sat, 02 Mar 2019 10:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/talk/mail/</guid>
       <description></description>
     </item>
     

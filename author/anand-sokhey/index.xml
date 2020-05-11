@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anand Sokhey | Jennifer Lin</title>
+    <link>https://lin-jennifer.github.io/author/anand-sokhey/</link>
+      <atom:link href="https://lin-jennifer.github.io/author/anand-sokhey/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anand Sokhey</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 06 Apr 2019 11:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lin-jennifer.github.io/images/icon_hu8ab3a8955374d0f37b63df1bbf185005_20489_512x512_fill_lanczos_center_2.png</url>
+      <title>Anand Sokhey</title>
+      <link>https://lin-jennifer.github.io/author/anand-sokhey/</link>
+    </image>
+    
+    <item>
+      <title>Levels of Conceptualization and Perceptions of Sophistication in Political Discourse</title>
+      <link>https://lin-jennifer.github.io/talk/levels/</link>
+      <pubDate>Sat, 06 Apr 2019 11:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/talk/levels/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

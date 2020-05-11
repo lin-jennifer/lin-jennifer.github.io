@@ -5,7 +5,7 @@
     <link>https://lin-jennifer.github.io/author/jack-reilly/</link>
       <atom:link href="https://lin-jennifer.github.io/author/jack-reilly/index.xml" rel="self" type="application/rss+xml" />
     <description>Jack Reilly</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 15 Apr 2020 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/images/icon_hu8ab3a8955374d0f37b63df1bbf185005_20489_512x512_fill_lanczos_center_2.png</url>
       <title>Jack Reilly</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Democrats and Republicans Communicate Different Moral Values through their 2016 National Convention Speeches</title>
+      <link>https://lin-jennifer.github.io/talk/moraltext/</link>
+      <pubDate>Wed, 15 Apr 2020 10:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/talk/moraltext/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scott, Nelson, DeSantis, Gillum &amp; Beyond$:$ A Look at 2018 Florida Precinct Returns</title>
       <link>https://lin-jennifer.github.io/publication/fl18vote/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/publication/fl18vote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Color, Size, and the Effectiveness of Direct Mail$:$ A Study on Voter Turnout in a Local Election</title>
+      <link>https://lin-jennifer.github.io/talk/mail/</link>
+      <pubDate>Sat, 02 Mar 2019 10:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/talk/mail/</guid>
       <description></description>
     </item>
     
