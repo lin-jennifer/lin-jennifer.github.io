@@ -5,12 +5,26 @@
     <link>https://lin-jennifer.github.io/tag/latex/</link>
       <atom:link href="https://lin-jennifer.github.io/tag/latex/index.xml" rel="self" type="application/rss+xml" />
     <description>latex</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/images/icon_hu8ab3a8955374d0f37b63df1bbf185005_20489_512x512_fill_lanczos_center_2.png</url>
       <title>latex</title>
       <link>https://lin-jennifer.github.io/tag/latex/</link>
     </image>
+    
+    <item>
+      <title>Academic CV</title>
+      <link>https://lin-jennifer.github.io/code/academic-cv/academic-cv/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/code/academic-cv/academic-cv/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This template was made as a combination of 
+&lt;a href=&#34;https://www.overleaf.com/articles/vuong-v-trinhs-cv/rwjrnbbbtgdy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuong V. Trinh&amp;rsquo;s CV&lt;/a&gt; and 
+&lt;a href=&#34;https://github.com/treyhunner/resume&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trey Hunner&amp;rsquo;s Resume&lt;/a&gt; while integrating additional bonus features&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+&lt;embed src=&#34;./CV.pdf&#34; width=&#34;100%&#34; height=&#34;800&#34; frameborder=&#34;0&#34; allowfullscreen&gt;
+&lt;h2 id=&#34;using-this-template&#34;&gt;Using This Template&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>`ncfposter`: A `tikzposter` for New College of Florida</title>
