@@ -78,7 +78,7 @@
 &lt;embed src=&#34;./CV.pdf&#34; width=&#34;100%&#34; height=&#34;800&#34; frameborder=&#34;0&#34; allowfullscreen&gt;
 &lt;h2 id=&#34;using-this-template&#34;&gt;Using This Template&lt;/h2&gt;
 &lt;p&gt;To access this template, clone my 
-&lt;a href=&#34;https://github.com/lin-jennifer/LaTeXTemplates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX Templates GitHub Repository&lt;/a&gt; and extract the CV folder.&lt;/p&gt;
+&lt;a href=&#34;https://github.com/lin-jennifer/LaTeXTemplates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\mathrm{\LaTeX}$ Templates GitHub Repository&lt;/a&gt; and extract the CV folder.&lt;/p&gt;
 &lt;p&gt;There are three main files&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;CV.tex&lt;/code&gt; &amp;ndash; This is the main file where you write your CV contents.&lt;/li&gt;
@@ -92,6 +92,7 @@
 &lt;a href=&#34;https://github.com/treyhunner/resume&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trey Hunner&amp;rsquo;s Resume&lt;/a&gt; containing the title of the section followed by a line spanning the entire width of the page.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Subsection Headings&lt;/strong&gt; &amp;ndash; These follow the style of the two-column style CVs such as 
 &lt;a href=&#34;https://www.overleaf.com/articles/vuong-v-trinhs-cv/rwjrnbbbtgdy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuong V. Trinh&amp;rsquo;s CV&lt;/a&gt; such that the heading is on the left and the main text is on the right.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Numbering Environment&lt;/strong&gt; &amp;ndash; Allows for both forward and reverse numbering environments&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -164,7 +165,7 @@
     </item>
     
     <item>
-      <title>`ncfposter`: A `tikzposter` for New College of Florida</title>
+      <title>NCF Poster</title>
       <link>https://lin-jennifer.github.io/code/ncfposter/ncfposter/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/code/ncfposter/ncfposter/</guid>
@@ -186,7 +187,15 @@
     </item>
     
     <item>
-      <title>`ncfdown`: A R Markdown Template for New College of Florida</title>
+      <title>Measuring Morality</title>
+      <link>https://lin-jennifer.github.io/publication/bacc-thesis/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/publication/bacc-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NCF (Mark)Down</title>
       <link>https://lin-jennifer.github.io/code/ncfdown/ncfdown/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/code/ncfdown/ncfdown/</guid>
@@ -238,14 +247,6 @@ library(ncfdown)
 &lt;li&gt;Open a pull request on the project GitHub: &lt;a href=&#34;https://github.com/lin-jennifer/ncfdown&#34;&gt;https://github.com/lin-jennifer/ncfdown&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Measuring Morality</title>
-      <link>https://lin-jennifer.github.io/publication/bacc-thesis/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://lin-jennifer.github.io/publication/bacc-thesis/</guid>
-      <description></description>
     </item>
     
     <item>
