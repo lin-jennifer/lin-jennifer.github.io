@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching Experience | Jennifer Lin</title>
+    <link>https://lin-jennifer.github.io/teaching/</link>
+      <atom:link href="https://lin-jennifer.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching Experience</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <image>
+      <url>https://lin-jennifer.github.io/images/icon_hu8ab3a8955374d0f37b63df1bbf185005_20489_512x512_fill_lanczos_center_2.png</url>
+      <title>Teaching Experience</title>
+      <link>https://lin-jennifer.github.io/teaching/</link>
+    </image>
+    
+  </channel>
+</rss>
