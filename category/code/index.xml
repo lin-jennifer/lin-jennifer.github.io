@@ -25,7 +25,7 @@
 &lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
 &lt;p&gt;For a demo of the template, see my 
 &lt;a href=&#34;https://lin-jennifer.github.io/files/CV.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CV&lt;/a&gt; tab in the menu bar or consult the output from the published template below.&lt;/p&gt;
-&lt;embed src=&#34;./CV.pdf&#34; width=&#34;100%&#34; height=&#34;800&#34; frameborder=&#34;0&#34; allowfullscreen&gt;
+&lt;embed src=&#34;CV.pdf&#34; width=&#34;100%&#34; height=&#34;800&#34; frameborder=&#34;0&#34; allowfullscreen&gt;
 &lt;h2 id=&#34;using-this-template&#34;&gt;Using This Template&lt;/h2&gt;
 &lt;p&gt;To access this template, clone my 
 &lt;a href=&#34;https://github.com/lin-jennifer/LaTeXTemplates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\mathrm{\LaTeX}$ Templates GitHub Repository&lt;/a&gt; and extract the CV folder.&lt;/p&gt;
