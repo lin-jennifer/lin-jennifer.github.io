@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anand Sokhey | Jennifer Lin</title>
-    <link>https://lin-jennifer.github.io/author/anand-sokhey/</link>
-      <atom:link href="https://lin-jennifer.github.io/author/anand-sokhey/index.xml" rel="self" type="application/rss+xml" />
-    <description>Anand Sokhey</description>
+    <title>Damon Roberts | Jennifer Lin</title>
+    <link>https://lin-jennifer.github.io/author/damon-roberts/</link>
+      <atom:link href="https://lin-jennifer.github.io/author/damon-roberts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Damon Roberts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Sat, 06 Apr 2019 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/images/icon_hu959ca99b6b6a7c2b49f8f98772255bba_16492_512x512_fill_lanczos_center_2.png</url>
-      <title>Anand Sokhey</title>
-      <link>https://lin-jennifer.github.io/author/anand-sokhey/</link>
+      <title>Damon Roberts</title>
+      <link>https://lin-jennifer.github.io/author/damon-roberts/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://lin-jennifer.github.io/research/levels/</link>
       <pubDate>Sat, 06 Apr 2019 11:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/research/levels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Levels of Conceptualization and Perceptions of Sophistication in Political Discourse</title>
-      <link>https://lin-jennifer.github.io/talk/levels/</link>
-      <pubDate>Sat, 06 Apr 2019 11:00:00 +0000</pubDate>
-      <guid>https://lin-jennifer.github.io/talk/levels/</guid>
       <description></description>
     </item>
     
