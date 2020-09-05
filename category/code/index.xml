@@ -5,12 +5,58 @@
     <link>https://lin-jennifer.github.io/category/code/</link>
       <atom:link href="https://lin-jennifer.github.io/category/code/index.xml" rel="self" type="application/rss+xml" />
     <description>Code</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/images/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
       <title>Code</title>
       <link>https://lin-jennifer.github.io/category/code/</link>
     </image>
+    
+    <item>
+      <title>Library of Political Texts (poltextr)</title>
+      <link>https://lin-jennifer.github.io/package/poltextr/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/package/poltextr/</guid>
+      <description>&lt;IMG src=&#34;https://lin-jennifer.github.io/package/poltextr.png&#34; align=right border=20px HSPACE=”50” VSPACE=”50”&gt;
+&lt;p&gt;To easily access any textual data that I use in my research in R, I created an R package that stores the corpuses.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(devtools)
+install_github(&amp;quot;lin-jennifer/poltextr&amp;quot;)
+library(poltextr)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;access-data&#34;&gt;Access Data&lt;/h2&gt;
+&lt;p&gt;To see which datasets are available in the package, run the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;data(package=&amp;quot;poltextr&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this package, metadata files contain details about the speakers and they are labelled with &lt;code&gt;_meta&lt;/code&gt; at the end of the data name.&lt;/p&gt;
+&lt;p&gt;To load a corpus, run&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;data(dnc16) # Loads DNC speeches from 2016
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Metadata files are loaded in as &lt;code&gt;.csv&lt;/code&gt; files and can be called as a data frame by running&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;data(dnc16_meta) # Loads DNC metadata from 2016
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;library-contents&#34;&gt;Library Contents&lt;/h1&gt;
+&lt;h2 id=&#34;national-convention-speeches&#34;&gt;National Convention Speeches&lt;/h2&gt;
+&lt;h3 id=&#34;years-included-and-parties&#34;&gt;Years Included (and Parties)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2020 (Democrat and Republican)&lt;/li&gt;
+&lt;li&gt;2016 (Democrat and Republican)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;political-party-platforms&#34;&gt;Political Party Platforms&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Feature is Still in the Works&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;categories&#34;&gt;Categories&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Democrat Party Platform&lt;/li&gt;
+&lt;li&gt;Republican Party Platform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;presidential-debates&#34;&gt;Presidential Debates&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Feature is Still in the Works&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;election-years&#34;&gt;Election Years&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2016&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Academic CV</title>

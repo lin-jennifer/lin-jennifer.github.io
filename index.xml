@@ -5,7 +5,7 @@
     <link>https://lin-jennifer.github.io/</link>
       <atom:link href="https://lin-jennifer.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jennifer Lin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Fri, 28 Aug 2020 15:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Fri, 04 Sep 2020 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/images/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
       <title>Jennifer Lin</title>
@@ -21,11 +21,80 @@
     </item>
     
     <item>
+      <title>The state of the nation$:$ A 50-state COVID-19 survey, Report 12$:$ Executive Approval Update</title>
+      <link>https://lin-jennifer.github.io/publication/csr12/</link>
+      <pubDate>Fri, 04 Sep 2020 15:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/publication/csr12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ask Only What Your Country Can Do for You$:$ Group Interests, Constituency Characteristics, and Demands for Representation</title>
       <link>https://lin-jennifer.github.io/publication/demands/</link>
       <pubDate>Fri, 28 Aug 2020 15:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/publication/demands/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>The State of the Nation -- A 50-State Survey of COVID-19</title>
+      <link>https://lin-jennifer.github.io/research/covidstates/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/research/covidstates/</guid>
+      <description>&lt;h2 id=&#34;published-materials&#34;&gt;Published Materials&lt;/h2&gt;
+&lt;h3 id=&#34;papers&#34;&gt;Papers&lt;/h3&gt;
+&lt;h3 id=&#34;data-reports&#34;&gt;Data Reports&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Report 12: Executive Approval Update&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;in-progress&#34;&gt;In Progress&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Library of Political Texts (poltextr)</title>
+      <link>https://lin-jennifer.github.io/package/poltextr/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/package/poltextr/</guid>
+      <description>&lt;IMG src=&#34;https://lin-jennifer.github.io/package/poltextr.png&#34; align=right border=20px HSPACE=”50” VSPACE=”50”&gt;
+&lt;p&gt;To easily access any textual data that I use in my research in R, I created an R package that stores the corpuses.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(devtools)
+install_github(&amp;quot;lin-jennifer/poltextr&amp;quot;)
+library(poltextr)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;access-data&#34;&gt;Access Data&lt;/h2&gt;
+&lt;p&gt;To see which datasets are available in the package, run the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;data(package=&amp;quot;poltextr&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this package, metadata files contain details about the speakers and they are labelled with &lt;code&gt;_meta&lt;/code&gt; at the end of the data name.&lt;/p&gt;
+&lt;p&gt;To load a corpus, run&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;data(dnc16) # Loads DNC speeches from 2016
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Metadata files are loaded in as &lt;code&gt;.csv&lt;/code&gt; files and can be called as a data frame by running&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;data(dnc16_meta) # Loads DNC metadata from 2016
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;library-contents&#34;&gt;Library Contents&lt;/h1&gt;
+&lt;h2 id=&#34;national-convention-speeches&#34;&gt;National Convention Speeches&lt;/h2&gt;
+&lt;h3 id=&#34;years-included-and-parties&#34;&gt;Years Included (and Parties)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2020 (Democrat and Republican)&lt;/li&gt;
+&lt;li&gt;2016 (Democrat and Republican)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;political-party-platforms&#34;&gt;Political Party Platforms&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Feature is Still in the Works&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;categories&#34;&gt;Categories&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Democrat Party Platform&lt;/li&gt;
+&lt;li&gt;Republican Party Platform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;presidential-debates&#34;&gt;Presidential Debates&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Feature is Still in the Works&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;election-years&#34;&gt;Election Years&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2016&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>

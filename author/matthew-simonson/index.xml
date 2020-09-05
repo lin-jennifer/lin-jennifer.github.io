@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matthew Simonson | Jennifer Lin</title>
+    <link>https://lin-jennifer.github.io/author/matthew-simonson/</link>
+      <atom:link href="https://lin-jennifer.github.io/author/matthew-simonson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Matthew Simonson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Fri, 04 Sep 2020 15:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lin-jennifer.github.io/images/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
+      <title>Matthew Simonson</title>
+      <link>https://lin-jennifer.github.io/author/matthew-simonson/</link>
+    </image>
+    
+    <item>
+      <title>The state of the nation$:$ A 50-state COVID-19 survey, Report 12$:$ Executive Approval Update</title>
+      <link>https://lin-jennifer.github.io/publication/csr12/</link>
+      <pubDate>Fri, 04 Sep 2020 15:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/publication/csr12/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
