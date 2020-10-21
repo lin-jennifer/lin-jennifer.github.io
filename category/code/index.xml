@@ -5,7 +5,7 @@
     <link>https://lin-jennifer.github.io/category/code/</link>
       <atom:link href="https://lin-jennifer.github.io/category/code/index.xml" rel="self" type="application/rss+xml" />
     <description>Code</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/images/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
       <title>Code</title>
@@ -63,18 +63,13 @@ library(poltextr)
       <link>https://lin-jennifer.github.io/package/academic-cv/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/package/academic-cv/</guid>
-      <description>&lt;p&gt;&lt;em&gt;This template was made as a combination of 
-&lt;a href=&#34;https://www.overleaf.com/articles/vuong-v-trinhs-cv/rwjrnbbbtgdy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuong V. Trinh&amp;rsquo;s CV&lt;/a&gt; and 
-&lt;a href=&#34;https://github.com/treyhunner/resume&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trey Hunner&amp;rsquo;s Resume&lt;/a&gt; while integrating additional bonus features&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Like my 
-&lt;a href=&#34;https://lin-jennifer.github.io/files/CV.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CV&lt;/a&gt;? I created this style based on the aforementioned inspirations so that my CV can be more organized with sections and subsections.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;This template was made as a combination of &lt;a href=&#34;https://www.overleaf.com/articles/vuong-v-trinhs-cv/rwjrnbbbtgdy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuong V. Trinh&amp;rsquo;s CV&lt;/a&gt; and &lt;a href=&#34;https://github.com/treyhunner/resume&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trey Hunner&amp;rsquo;s Resume&lt;/a&gt; while integrating additional bonus features&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Like my &lt;a href=&#34;https://lin-jennifer.github.io/files/CV.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CV&lt;/a&gt;? I created this style based on the aforementioned inspirations so that my CV can be more organized with sections and subsections.&lt;/p&gt;
 &lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
-&lt;p&gt;For a demo of the template, see my 
-&lt;a href=&#34;https://lin-jennifer.github.io/files/CV.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CV&lt;/a&gt; tab in the menu bar or consult the output from the published template below.&lt;/p&gt;
+&lt;p&gt;For a demo of the template, see my &lt;a href=&#34;https://lin-jennifer.github.io/files/CV.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CV&lt;/a&gt; tab in the menu bar or consult the output from the published template below.&lt;/p&gt;
 &lt;embed src=&#34;CV.pdf&#34; width=&#34;100%&#34; height=&#34;800&#34; frameborder=&#34;0&#34; allowfullscreen&gt;
 &lt;h2 id=&#34;using-this-template&#34;&gt;Using This Template&lt;/h2&gt;
-&lt;p&gt;To access this template, clone my 
-&lt;a href=&#34;https://github.com/lin-jennifer/LaTeXTemplates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\mathrm{\LaTeX}$ Templates GitHub Repository&lt;/a&gt; and extract the CV folder.&lt;/p&gt;
+&lt;p&gt;To access this template, clone my &lt;a href=&#34;https://github.com/lin-jennifer/LaTeXTemplates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\mathrm{\LaTeX}$ Templates GitHub Repository&lt;/a&gt; and extract the CV folder.&lt;/p&gt;
 &lt;p&gt;There are three main files&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;CV.tex&lt;/code&gt; &amp;ndash; This is the main file where you write your CV contents.&lt;/li&gt;
@@ -84,10 +79,8 @@ library(poltextr)
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt; &amp;ndash; When using Adobe reader for PDFs, the section and subsection headers are labeled and thus can appear on the left-hand panel for easy cross-reference&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Section Headings&lt;/strong&gt; &amp;ndash; These follow the style in 
-&lt;a href=&#34;https://github.com/treyhunner/resume&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trey Hunner&amp;rsquo;s Resume&lt;/a&gt; containing the title of the section followed by a line spanning the entire width of the page.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Subsection Headings&lt;/strong&gt; &amp;ndash; These follow the style of the two-column style CVs such as 
-&lt;a href=&#34;https://www.overleaf.com/articles/vuong-v-trinhs-cv/rwjrnbbbtgdy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuong V. Trinh&amp;rsquo;s CV&lt;/a&gt; such that the heading is on the left and the main text is on the right.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Section Headings&lt;/strong&gt; &amp;ndash; These follow the style in &lt;a href=&#34;https://github.com/treyhunner/resume&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trey Hunner&amp;rsquo;s Resume&lt;/a&gt; containing the title of the section followed by a line spanning the entire width of the page.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Subsection Headings&lt;/strong&gt; &amp;ndash; These follow the style of the two-column style CVs such as &lt;a href=&#34;https://www.overleaf.com/articles/vuong-v-trinhs-cv/rwjrnbbbtgdy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuong V. Trinh&amp;rsquo;s CV&lt;/a&gt; such that the heading is on the left and the main text is on the right.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Numbering Environment&lt;/strong&gt; &amp;ndash; Allows for both forward and reverse numbering environments&lt;/li&gt;
 &lt;/ol&gt;
 </description>
@@ -98,14 +91,12 @@ library(poltextr)
       <link>https://lin-jennifer.github.io/package/ncfposter/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/package/ncfposter/</guid>
-      <description>&lt;p&gt;&lt;em&gt;The poster template is based off the 
-&lt;a href=&#34;https://www.overleaf.com/latex/templates/uw-madison-poster-template/tfbyxyhbymsq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UW&amp;ndash;Madison Poster&lt;/a&gt; on Overleaf.&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;The poster template is based off the &lt;a href=&#34;https://www.overleaf.com/latex/templates/uw-madison-poster-template/tfbyxyhbymsq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UW&amp;ndash;Madison Poster&lt;/a&gt; on Overleaf.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
 &lt;p&gt;The outcome of the poster can be seen here: &lt;a href=&#34;https://github.com/lin-jennifer/NCFPoster/blob/master/main.pdf&#34;&gt;https://github.com/lin-jennifer/NCFPoster/blob/master/main.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://lin-jennifer.github.io/package/ncfposter.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;using-this-template&#34;&gt;Using this Template&lt;/h2&gt;
-&lt;p&gt;The best way to use this template is to clone the GitHub repositiory in the link at the top of the post or 
-&lt;a href=&#34;https://github.com/lin-jennifer/NCFPoster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The best way to use this template is to clone the GitHub repositiory in the link at the top of the post or &lt;a href=&#34;https://github.com/lin-jennifer/NCFPoster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you choose to delete some of the demo objects in the file in favor of your own materials, be sure to include the following items&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;main.tex&lt;/code&gt;: The root file that contains the temaplate for the poster seen in the demo. You can rename this to be whatever you like.&lt;/li&gt;
@@ -120,9 +111,7 @@ library(poltextr)
       <link>https://lin-jennifer.github.io/package/ncfdown/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/package/ncfdown/</guid>
-      <description>&lt;p&gt;&lt;em&gt;This template was made based off the style created by 
-&lt;a href=&#34;https://github.com/holtzy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yan Holtz&lt;/a&gt; in the 
-&lt;a href=&#34;https://github.com/holtzy/epuRate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;epuRate&lt;/a&gt; template. Thank you for your inspiration and assistance in creating this template&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;This template was made based off the style created by &lt;a href=&#34;https://github.com/holtzy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yan Holtz&lt;/a&gt; in the &lt;a href=&#34;https://github.com/holtzy/epuRate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;epuRate&lt;/a&gt; template. Thank you for your inspiration and assistance in creating this template&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
 &lt;p&gt;See it in action here: &lt;a href=&#34;https://lin-jennifer.github.io/ncfdown/&#34;&gt;https://lin-jennifer.github.io/ncfdown/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;using-this-template&#34;&gt;Using this Template&lt;/h2&gt;
@@ -136,8 +125,7 @@ library(ncfdown)
 &lt;p&gt;For this package, there are several options under the &lt;code&gt;output:&lt;/code&gt; category on the &lt;code&gt;YAML&lt;/code&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;ncf&lt;/code&gt;: This option provides a basic structure for HTML documents knitted out of an R Markdown document. Simply note &lt;code&gt;ncfdown::ncf&lt;/code&gt; under the output option to activate this template.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ncfweb&lt;/code&gt;: Consult the 
-&lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Studio Handbook&lt;/a&gt; for how to create a website. This option provides a design for an R Markdown based website. It differs from the &lt;code&gt;ncf&lt;/code&gt; option in three ways:
+&lt;li&gt;&lt;code&gt;ncfweb&lt;/code&gt;: Consult the &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Studio Handbook&lt;/a&gt; for how to create a website. This option provides a design for an R Markdown based website. It differs from the &lt;code&gt;ncf&lt;/code&gt; option in three ways:
 &lt;ol&gt;
 &lt;li&gt;Author and Date in footer only rather than under the title&lt;/li&gt;
 &lt;li&gt;Removes code folding option and code folding button on the upper-right-hand corner on each page&lt;/li&gt;
@@ -161,10 +149,8 @@ library(ncfdown)
 &lt;h2 id=&#34;contributing-to-this-package&#34;&gt;Contributing to this Package&lt;/h2&gt;
 &lt;p&gt;To help me improve this package, please reach out using the following methods:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Email: 
-&lt;a href=&#34;mailto:jenniferlin2025@u.northwestern.edu&#34;&gt;jenniferlin2025@u.northwestern.edu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Send a message via the 
-&lt;a href=&#34;https://lin-jennifer.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contact&lt;/a&gt; tab&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:jenniferlin2025@u.northwestern.edu&#34;&gt;jenniferlin2025@u.northwestern.edu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Send a message via the &lt;a href=&#34;https://lin-jennifer.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contact&lt;/a&gt; tab&lt;/li&gt;
 &lt;li&gt;Open a pull request on the project GitHub: &lt;a href=&#34;https://github.com/lin-jennifer/ncfdown&#34;&gt;https://github.com/lin-jennifer/ncfdown&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
