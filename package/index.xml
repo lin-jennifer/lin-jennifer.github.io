@@ -5,12 +5,29 @@
     <link>https://lin-jennifer.github.io/package/</link>
       <atom:link href="https://lin-jennifer.github.io/package/index.xml" rel="self" type="application/rss+xml" />
     <description>Packages</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2020</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/images/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
       <title>Packages</title>
       <link>https://lin-jennifer.github.io/package/</link>
     </image>
+    
+    <item>
+      <title>Useful Functions for Northwestern University Political Science Methods Classes</title>
+      <link>https://lin-jennifer.github.io/package/polstat/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/package/polstat/</guid>
+      <description>&lt;p&gt;Purpose: Helpful functions and data to use with the Northwestern University PS 403 course.&lt;/p&gt;
+&lt;p&gt;The functions here were originally part of the &lt;code&gt;lin&lt;/code&gt; package but are moved to facilitate a clearer definition of package propose and contents. Since the &lt;code&gt;lin&lt;/code&gt; package features commands I often use, some of these functions do not fit that category.&lt;/p&gt;
+&lt;p&gt;Functions in this package are meant to facilitate the understanding of core statistics concepts covered in introductory policial science methods courses. They might be useful in research in the long term but R often has a better and more appropriate means for executing those duties than the functions provided here.&lt;/p&gt;
+&lt;p&gt;This package may be useful to a more general audience, however, current students of PS 403 are NOT encouraged to download this until AFTER they completed the class.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(devtools)
+install_github(&amp;quot;lin-jennifer/polstat&amp;quot;)
+library(polstat)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Jennifer Lin&#39;s Collection of Functions</title>
