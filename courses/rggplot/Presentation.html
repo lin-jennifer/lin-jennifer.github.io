@@ -1,0 +1,1973 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Pipes (%&gt;%) and ggplot</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jennifer Lin" />
+    <meta name="date" content="2021-04-14" />
+    <script src="Presentation_files/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Pipes (%&gt;%) and ggplot
+## R Workshop
+### Jennifer Lin
+### 2021-04-14
+
+---
+
+
+&lt;style type="text/css"&gt;
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 4em 1em 4em;
+}
+.remark-code {
+font-size: 24px;
+}
+&lt;/style&gt;
+
+
+
+
+
+
+
+# Overview of Today's Workshop
+
+--
+
+1. Introduce the data
+
+--
+
+2. Discuss `dplyr` and pipes (%&gt;%)
+
+--
+
+3. Discuss `ggplot2` basics
+
+--
+
+4. If time permits, discuss `ggplot` features for time series and spatial data
+
+
+---
+class: inverse, middle, center
+
+
+# The Data
+
+---
+
+# Cooperative Congressional Elections Studies 2018
+
+--
+
+*How do different groups of people vary in their approval of American Political Institutions?*
+
+--
+
+The CCES 2018 data has some variables that can help us answer this question.
+
+--
+
+The dataset we use in this workshop is an oversimplification of the varaibles that are actually available in the data
+
+--
+
+For more information: https://cces.gov.harvard.edu/
+
+---
+
+# Institutional Approval Variables
+
+--
+
+There are three branches of government in American politics and the variables that start with `app` signal institutional approval variables where 1 = approve and 2 = disapprove
+
+--
+
+&gt; Do you approve or disapprove of the way each is doing their job?
+
+--
+
+&gt; 1. President Trump
+
+--
+
+&gt; 2. US Congress
+
+--
+
+&gt; 3. US Supreme Court
+
+---
+
+# Choose your Adventure
+
+--
+
+For this workshop, I will use the approval for Congress as my main dependent variable
+
+--
+
+All approval variables are coded the same way so feel free to explore as you wish!
+
+---
+
+# Load the Data
+
+--
+
+If you downloaded the GitHub repository, this should run directly. Otherwise, please make sure that the data is in the same folder as your script or Markdown file.
+
+--
+
+
+```r
+library(readr)
+CCES_2018 &lt;- read_csv("CCES18_subset.csv")
+```
+
+---
+
+# Look at the Data
+
+
+```r
+glimpse(CCES_2018)
+```
+
+--
+
+
+```r
+head(CCES_2018)
+```
+
+--
+
+
+```r
+dim(CCES_2018)
+```
+
+```
+## [1] 60000    19
+```
+
+---
+
+class: inverse, middle, center
+
+
+# `dplyr` and Pipes
+
+---
+
+# Common `dplyr` Commands
+
+--
+
+Imagine your data are a collection of cheese boards
+
+.pull-left[
+&lt;img src="Images/cheese.jpeg" width="100%"&gt;
+]
+
+.pull-right[
+Each type of meat or cheese is a variable
+
+Each cheese board is an observation
+]
+---
+
+`select()` = choosing the type of meat or type of cheese (or olives or whatever).
+
+--
+
+`filter()` = Exclude cheese boards with pickles
+
+--
+
+`mutate()` = Create an indicator for whether this board is vegetarian where `TRUE` there is no meat.
+
+--
+
+`rename()` = Name meats and cheese instead of `meat_1` or `cheese_1`
+
+--
+
+`group_by()` = group cheese boards that have olives to compare to those that do not have olives
+
+--
+
+`summarise()` = tell your friend about all the cheese boards you are looking at
+
+---
+
+# Pipes (%&gt;%)
+
+--
+
+Imagine doing a lot of different commands all in one chunk
+
+--
+
+You can with PIPES!
+
+--
+
+Funnels each stem into the next step without creating a new object
+
+--
+
+
+```r
+data %&gt;% 
+  step 1 %&gt;% 
+  step 2 %&gt;% 
+  step 3 %&gt;% 
+  steo 4
+```
+
+
+---
+
+# `filter()`
+
+--
+
+.pull-left[
+Putting Observations through a sifter where `var operator condition`
+
+`filter(.data, ...,)`
+
+`data %&gt;% filter(...)`
+
+We can use conditions for variables where the variables are joined by AND (&amp;) or OR (|) operators
+]
+
+--
+
+.pull-right[
+|Operator|Description|
+|:------|:-----------|
+|==|exactly equal to|
+|&lt;|less than|
+|&lt;=|less than or equal to|
+|`%in%`|is in this list|
+|!=|not equal to|
+|`is.na()`|NA values|
+]
+
+---
+
+# `select()`
+
+--
+
+.pull-left[
+Picking out variables from a data frame
+
+`select(.data, ...)`
+
+`data %&gt;% select(...)`
+
+We can select variables by name or by position 
+
+There are some shortcuts in the select variables
+]
+
+--
+
+.pull-right[
+|Operator|Description|
+|:------|:-----------|
+|`everything()`|everything in data|
+|`last_col()`|last column|
+|`starts_with()`|start with a string|
+|`ends_with()`|ends with a string|
+|`contains()`|contains a string|
+]
+
+---
+
+
+
+
+count: false
+ 
+
+.panel1-select_filter-auto[
+
+```r
+*CCES
+```
+]
+ 
+.panel2-select_filter-auto[
+
+```
+## # A tibble: 15 x 4
+##    votereg pid3        state appCongress
+##    &lt;chr&gt;   &lt;chr&gt;       &lt;chr&gt;       &lt;dbl&gt;
+##  1 Yes     Independent MD              2
+##  2 Yes     Republican  TN              2
+##  3 Yes     Republican  OH              1
+##  4 Yes     Independent CA              2
+##  5 Yes     Democrat    KY              2
+##  6 No      Independent AZ              2
+##  7 No      Independent HI             NA
+##  8 Yes     Democrat    AZ              2
+##  9 Yes     Republican  AL              2
+## 10 Yes     &lt;NA&gt;        GA             NA
+## 11 No      Independent CA              1
+## 12 No      &lt;NA&gt;        TN             NA
+## 13 Yes     Independent HI              1
+## 14 Yes     Republican  OH              2
+## 15 Yes     Independent CA              2
+```
+]
+
+---
+count: false
+ 
+
+.panel1-select_filter-auto[
+
+```r
+CCES %&gt;%
+* select(
+*   pid3,
+*   votereg,
+*   appCongress
+*   )
+```
+]
+ 
+.panel2-select_filter-auto[
+
+```
+## # A tibble: 15 x 3
+##    pid3        votereg appCongress
+##    &lt;chr&gt;       &lt;chr&gt;         &lt;dbl&gt;
+##  1 Independent Yes               2
+##  2 Republican  Yes               2
+##  3 Republican  Yes               1
+##  4 Independent Yes               2
+##  5 Democrat    Yes               2
+##  6 Independent No                2
+##  7 Independent No               NA
+##  8 Democrat    Yes               2
+##  9 Republican  Yes               2
+## 10 &lt;NA&gt;        Yes              NA
+## 11 Independent No                1
+## 12 &lt;NA&gt;        No               NA
+## 13 Independent Yes               1
+## 14 Republican  Yes               2
+## 15 Independent Yes               2
+```
+]
+
+---
+count: false
+ 
+
+.panel1-select_filter-auto[
+
+```r
+CCES %&gt;%
+  select(
+    pid3,
+    votereg,
+    appCongress
+    ) %&gt;%
+* filter(
+*   pid3 == "Independent"
+*   )
+```
+]
+ 
+.panel2-select_filter-auto[
+
+```
+## # A tibble: 7 x 3
+##   pid3        votereg appCongress
+##   &lt;chr&gt;       &lt;chr&gt;         &lt;dbl&gt;
+## 1 Independent Yes               2
+## 2 Independent Yes               2
+## 3 Independent No                2
+## 4 Independent No               NA
+## 5 Independent No                1
+## 6 Independent Yes               1
+## 7 Independent Yes               2
+```
+]
+
+---
+count: false
+ 
+
+.panel1-select_filter-auto[
+
+```r
+CCES %&gt;%
+  select(
+    pid3,
+    votereg,
+    appCongress
+    ) %&gt;%
+  filter(
+    pid3 == "Independent"
+    ) %&gt;%
+* filter(
+*   votereg == "Yes" |
+*   appCongress == 2)
+```
+]
+ 
+.panel2-select_filter-auto[
+
+```
+## # A tibble: 5 x 3
+##   pid3        votereg appCongress
+##   &lt;chr&gt;       &lt;chr&gt;         &lt;dbl&gt;
+## 1 Independent Yes               2
+## 2 Independent Yes               2
+## 3 Independent No                2
+## 4 Independent Yes               1
+## 5 Independent Yes               2
+```
+]
+
+&lt;style&gt;
+.panel1-select_filter-auto {
+  color: black;
+  width: 38.6060606060606%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel2-select_filter-auto {
+  color: black;
+  width: 59.3939393939394%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel3-select_filter-auto {
+  color: black;
+  width: NA%;
+  hight: 33%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+&lt;/style&gt;
+
+
+
+
+
+---
+
+# Exercise
+
+We are interested in approval to a political institution. Think about the institution you want to focus on (and a second) and do the following:
+
+--
+
+1. Select the state, region, party, and two approval variables of choice (Congress, President, Supreme Court)
+
+--
+
+2. Filter out the NA values on state and party variables. Hint: use `is.na()` and `!`.
+
+---
+
+# `mutate()`
+
+--
+
+Create new variables that are transformations of pre-existing ones.
+
+--
+
+
+```r
+data &lt;- data %&gt;% 
+  mutate(new = function(old))
+```
+
+--
+
+where `function()` denotes classic functions like `sum()`, `mean()`, `length()` 
+
+---
+
+# Recoding variables
+
+--
+
+The `mutate()` command can also be useful to recode variables
+
+--
+
+Use `case_when()`, `recode()` or `if_else()` in the `dplyr` package
+
+--
+
+
+```r
+data &lt;- data %&gt;% 
+  mutate(new = case_when(
+    old == [old] ~ [new code],
+    # For example:
+    voterreg == "yes" ~ 1,
+    # For all else not previously defined
+    TRUE ~ [new code]
+  ))
+```
+
+---
+
+# `summarise()`
+
+--
+
+Reduce observations to simple statistics.
+
+--
+
+Is usually preceded by `group_by()` which groups the data by a grouping variable
+
+--
+
+
+```r
+CCES_2018 %&gt;% 
+  group_by(pid3) %&gt;% 
+  summarise(
+    mean    = mean(appCongress, na.rm = TRUE)
+    .groups = 'keep')
+```
+
+--
+
+Add `.groups = 'keep'` to maintain the groups or `.groups = 'drop'` to remove all groupings
+
+---
+
+# Pull it all together
+
+--
+
+In the data frame that you previously created that took out region, state, party, and approval variables, create a summary table that describes the precent of people in each state-party-region combination that approves your institution of choice. Use mutate and `case_when()` to recode your region variable so that 1 = Northeast, 2 = Midwest, 3 = South and 4 = West.
+
+--
+
+HINT - You can put multiple variables in the `group_by()` command
+
+--
+
+HINT - To create a proportion variable, use can use the following function in the summarise environment. NOTE how the approval variables are coded (1 = approve, 2 = disapprove)
+
+
+```r
+sum(appVar == 1, na.rm = TRUE)/length(appVar)
+```
+
+---
+
+# Solution
+
+
+```r
+state_party_Congress &lt;- CCES_2018 %&gt;% 
+  select(state, pid3, region, appCongress, appTrump) %&gt;% 
+  filter(!is.na(state)) %&gt;% 
+  filter(!is.na(pid3)) %&gt;% 
+  mutate(
+    region = case_when(
+      region == 1 ~ "Northeast",
+      region == 2 ~ "Midwest",
+      region == 3 ~ "South",
+      region == 4 ~ "West"
+    )
+  ) %&gt;% 
+  group_by(state, region, pid3) %&gt;% 
+  summarise(
+    mean        = mean(appCongress, na.rm = TRUE),
+    pctCongAppv = sum(appCongress == 1, na.rm = TRUE)/length(appCongress),
+    pctCongDApv = sum(appCongress == 2, na.rm = TRUE)/length(appCongress),
+    pctPresAppv = sum(appTrump == 1, na.rm = TRUE)/length(appTrump),
+    pctPresDApv = sum(appTrump == 2, na.rm = TRUE)/length(appTrump),
+    .groups     = 'keep'
+  ) 
+```
+
+
+---
+class: inverse, middle, center
+
+
+# `ggplot2`: The Grammar of Graphics
+
+---
+
+# `ggplot2` Helps Us Make Graphs
+
+--
+
+Graphs are created by layers such that 
+
+```
+ggplot(data layer)+
+  graph layer +
+  label layer +
+  scale loayer +
+  theme layer +
+  others
+```
+
+where each layer (roughly) shows what should be there. Graphs do NOT need to follow a standard order so long as you get your desired outcome
+
+--
+
+Layers are joined with `+` operator
+
+---
+
+# The Data Loyer
+
+--
+
+This usually goes in the `ggplot()` function that starts the graph
+
+--
+
+Include information about your data frame and the variables that you want in `aes()`.
+
+--
+
+
+```r
+ggplot(state_party_Congress, 
+       aes(x = pctCongAppv, 
+           y = pctPresAppv,
+           color = "red")
+       )
+```
+
+---
+
+# Difference between `fill` and `color`
+
+--
+
+`color` the lines (or dots)
+
+--
+
+`fill` the space
+
+--
+
+It it is a point or a line, use `color`. For polygons, use `fill`
+
+
+---
+
+# The Graph Layer
+
+--
+
+`ggplot2` has many options of what graphs we can include
+
+--
+
+|Operator|Description|
+|:------|:-----------|
+|`geom_line()`|line graph|
+|`geom_bar()`|bar plot|
+|`geom_histogram()`|histogram|
+|`geom_boxplot()`|boxplot|
+|`geom_violin()`|violin plot|
+|`geom_sf()`|maps with shapefiles|
+
+---
+
+# Quick Demo of a Scatterplot
+
+--
+
+
+```r
+ggplot(state_party_Congress, 
+       aes(x = pctCongAppv, y = pctPresAppv, color = "red"))+
+  geom_point()
+```
+
+&lt;img src="Presentation_files/figure-html/unnamed-chunk-24-1.png" width="100%" /&gt;
+
+---
+
+# Quick Demo of a Boxplot
+
+--
+
+
+```r
+ggplot(state_party_Congress, 
+       aes(x = pid3, y = pctCongAppv,  fill = pid3))+
+  geom_boxplot()
+```
+
+&lt;img src="Presentation_files/figure-html/unnamed-chunk-25-1.png" width="100%" /&gt;
+
+---
+
+# Quick Demo of a Bar chart
+
+--
+
+
+```r
+ggplot(state_party_Congress, 
+       aes(x = pid3, y = pctCongAppv ))+
+  geom_bar(stat = "identity",
+           fill = "white")
+```
+
+&lt;img src="Presentation_files/figure-html/unnamed-chunk-26-1.png" width="100%" /&gt;
+
+---
+
+# Quick Demo of a Histogram
+
+--
+
+
+```r
+ggplot(state_party_Congress, aes(x = pctCongAppv))+
+  geom_histogram(bins = 10)
+```
+
+&lt;img src="Presentation_files/figure-html/unnamed-chunk-27-1.png" width="100%" /&gt;
+
+---
+
+# Exercise
+
+--
+
+Using the data frame that you created (or `state_party_Congress`), create a very basic graph like the demos above. Take some time to play around with the possible graphs in ggplot. The goal is to get you to feel comfortable with the data and the plot layers.
+
+---
+
+# The Label Layer
+
+--
+
+For the x- and y-axes, use `xlab()` and `ylab()`
+
+--
+
+For the title and subtitle
+
+--
+
+```r
+labs(
+  title    = "",
+  subtitle = "",
+  caption  = ""
+)
+```
+
+
+---
+
+# The Scale Layer
+
+--
+
+Use scales to override defaults
+
+--
+
+Most `ggplot` scales come in the format of `scale_[SOMETHING]_[SOMEHOW]()`
+
+--
+
+- `[SOMETHING]` -- What do you want to scale? Color, the x-axis (x), the fill, y-axis (y)?
+
+--
+
+- `[SOMEHOW]` -- How do you want it to start the rescale process? Transformed, gradients, manual?
+
+---
+
+# Arguments
+
+--
+
+Most scales take the following arguments
+
+--
+
+- `name` = Name the thing you are scaling
+
+--
+
+- `breaks` = Locate where you want to break it
+
+--
+
+- `labels` = Assign each break point a name
+
+--
+
+- `limits` = Set upper and lower bounds (if applicable)
+
+---
+
+# Common Scale Uses
+
+--
+
+- `scale_x_continuous()` 
+    - `[SOMETHING]` = x-axis
+    - `[SOMEHOW]` = continuously
+
+--
+
+- `scale_fill_manual()` 
+    - `[SOMETHING]` = shape fill
+    - `[SOMEHOW]` = manually
+
+--
+
+- `scale_colour_brewer(palette = "[PALETTE NAME]")` 
+    - `[SOMETHING]` = color
+    - `[SOMEHOW]` = Using the [R Color Brewer palette](https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3)
+
+---
+
+# The Theme Layer
+
+--
+
+There are 2 different types of theme layer settings
+
+--
+
+1. Global Themes
+
+--
+
+2. Specific options
+
+---
+
+# Global Themes
+
+--
+
+.pull-left[
+Classic Options
+
+- `theme_bw()`
+- `theme_classic()`
+- `theme_light()`
+- `theme_linedraw()`
+
+]
+
+--
+
+.pull-right[
+from `ggthemes`
+
+- `theme_tufte()`
+- `theme_gdocs()`
+- `theme_calc()`
+
+]
+
+---
+
+# Themes Options
+
+--
+
+On top of these presets, you can customize your graph using arguments in `theme()` 
+
+
+```r
+theme(
+  plot.title      = element_text(hjust  = 0.5),
+  axis.title      = element_text(colour ="black"),
+  axis.title.y    = element_text(size   = 12),
+  legend.position = 'none'
+)
+```
+
+---
+
+# The Others Layer
+
+--
+
+- `facet_grid()` and `facet_wrap()` can group your data by a designated grouping variable
+
+--
+
+- `coord_flip()` changes what is on your x-axis to y-axis and vice versa
+
+
+---
+
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+*ggplot(state_party_Congress,
+*      aes(
+*        x = pctCongAppv,
+*        y = pctPresAppv,
+*        group = pid3))
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_01_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+ggplot(state_party_Congress,
+       aes(
+         x = pctCongAppv,
+         y = pctPresAppv,
+         group = pid3))+
+* geom_point(color = 'blue')
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_02_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+ggplot(state_party_Congress,
+       aes(
+         x = pctCongAppv,
+         y = pctPresAppv,
+         group = pid3))+
+  geom_point(color = 'blue')+
+* geom_point(aes(color = pid3))
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_03_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+ggplot(state_party_Congress,
+       aes(
+         x = pctCongAppv,
+         y = pctPresAppv,
+         group = pid3))+
+  geom_point(color = 'blue')+
+  geom_point(aes(color = pid3))+
+* xlab("Approval of Congress")
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_04_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+ggplot(state_party_Congress,
+       aes(
+         x = pctCongAppv,
+         y = pctPresAppv,
+         group = pid3))+
+  geom_point(color = 'blue')+
+  geom_point(aes(color = pid3))+
+  xlab("Approval of Congress")+
+* ylab("Approval of President Trump")
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_05_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+ggplot(state_party_Congress,
+       aes(
+         x = pctCongAppv,
+         y = pctPresAppv,
+         group = pid3))+
+  geom_point(color = 'blue')+
+  geom_point(aes(color = pid3))+
+  xlab("Approval of Congress")+
+  ylab("Approval of President Trump")+
+* ggtitle("Approval of American Institutions")
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_06_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+ggplot(state_party_Congress,
+       aes(
+         x = pctCongAppv,
+         y = pctPresAppv,
+         group = pid3))+
+  geom_point(color = 'blue')+
+  geom_point(aes(color = pid3))+
+  xlab("Approval of Congress")+
+  ylab("Approval of President Trump")+
+  ggtitle("Approval of American Institutions")+
+* scale_color_manual(
+*   name = "Party",
+*   breaks = c("Republican", "Democrat", "Independent"),
+*   values = c("Republican" = "red", "Democrat" = "blue", "Independent" = "grey50")
+* )
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_07_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+ggplot(state_party_Congress,
+       aes(
+         x = pctCongAppv,
+         y = pctPresAppv,
+         group = pid3))+
+  geom_point(color = 'blue')+
+  geom_point(aes(color = pid3))+
+  xlab("Approval of Congress")+
+  ylab("Approval of President Trump")+
+  ggtitle("Approval of American Institutions")+
+  scale_color_manual(
+    name = "Party",
+    breaks = c("Republican", "Democrat", "Independent"),
+    values = c("Republican" = "red", "Democrat" = "blue", "Independent" = "grey50")
+  )+
+* theme_bw()
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_08_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+ggplot(state_party_Congress,
+       aes(
+         x = pctCongAppv,
+         y = pctPresAppv,
+         group = pid3))+
+  geom_point(color = 'blue')+
+  geom_point(aes(color = pid3))+
+  xlab("Approval of Congress")+
+  ylab("Approval of President Trump")+
+  ggtitle("Approval of American Institutions")+
+  scale_color_manual(
+    name = "Party",
+    breaks = c("Republican", "Democrat", "Independent"),
+    values = c("Republican" = "red", "Democrat" = "blue", "Independent" = "grey50")
+  )+
+  theme_bw()+
+* theme(
+*   legend.position = 'bottom'
+* )
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_09_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-graph_demo-auto[
+
+```r
+ggplot(state_party_Congress,
+       aes(
+         x = pctCongAppv,
+         y = pctPresAppv,
+         group = pid3))+
+  geom_point(color = 'blue')+
+  geom_point(aes(color = pid3))+
+  xlab("Approval of Congress")+
+  ylab("Approval of President Trump")+
+  ggtitle("Approval of American Institutions")+
+  scale_color_manual(
+    name = "Party",
+    breaks = c("Republican", "Democrat", "Independent"),
+    values = c("Republican" = "red", "Democrat" = "blue", "Independent" = "grey50")
+  )+
+  theme_bw()+
+  theme(
+    legend.position = 'bottom'
+  )+
+* facet_grid(~region)
+```
+]
+ 
+.panel2-graph_demo-auto[
+&lt;img src="Presentation_files/figure-html/graph_demo_auto_10_output-1.png" width="100%" /&gt;
+]
+
+&lt;style&gt;
+.panel1-graph_demo-auto {
+  color: black;
+  width: 38.6060606060606%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel2-graph_demo-auto {
+  color: black;
+  width: 59.3939393939394%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel3-graph_demo-auto {
+  color: black;
+  width: NA%;
+  hight: 33%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+&lt;/style&gt;
+
+
+
+
+
+---
+
+# Pull it Together
+
+--
+
+Using the plot that you created in the previous exercise, do the following
+
+--
+
+1. Add a title, x and y axis labels
+
+--
+
+2. Edit the legend to fit your graph
+
+--
+
+3. Change the theme
+
+---
+
+class: inverse, middle, center
+
+
+# Dates
+
+---
+
+# `lubridate` Rundown
+
+--
+
+We know `20210304`, `04mar2021` and `March 4, 2021` all refer to the same date. 
+
+--
+
+But R doesn't
+
+--
+
+How can this be a problem?
+
+---
+
+Save all the dates and look at the way R treats it.
+
+--
+
+
+```r
+date_1 &lt;- 20210304
+class(date_1)
+```
+
+```
+## [1] "numeric"
+```
+
+```r
+date_2 &lt;- "04mar2021"
+class(date_2)
+```
+
+```
+## [1] "character"
+```
+
+```r
+date_3 &lt;- "March 4, 2021"
+class(date_3)
+```
+
+```
+## [1] "character"
+```
+
+---
+
+# The Problem
+
+--
+
+There are many, but here are some
+
+--
+
+- Opens the opportunity to mistreatment of variables -- what might be meant as a date is instead a number
+
+--
+
+- Lack of standardization in date formats -- imagine having `mar042021` and `March 04 2021` and `03 04 2021` and `03-04-2021` all in the same variable.
+
+---
+
+# Here comes `lubridate`!
+
+--
+
+`lubridate` makes it easy to parse variables
+
+--
+
+All we need to know are the positions of the day, month and year and it will handle the rest.
+
+--
+
+
+```r
+library(lubridate)
+```
+
+
+---
+
+# Examples
+
+--
+
+`20210304` -- **y**ear **m**onth **d**ay
+
+--
+
+
+```r
+ymd("20210304")
+```
+
+```
+## [1] "2021-03-04"
+```
+
+--
+
+`04mar2021` -- **d**ay **m**onth **y**ear 
+
+--
+
+
+```r
+dmy("04mar2021")
+```
+
+```
+## [1] "2021-03-04"
+```
+
+---
+
+`March 4, 2021` -- **m**onth **d**ay **y**ear 
+
+--
+
+
+```r
+mdy("March 4, 2021")
+```
+
+```
+## [1] "2021-03-04"
+```
+
+--
+
+`20210403` -- **y**ear **d**ay **m**onth
+
+--
+
+
+```r
+ydm("20210403")
+```
+
+```
+## [1] "2021-03-04"
+```
+
+---
+
+# Demo on Dates data
+
+
+```r
+Hour &lt;- CCES_2018 %&gt;% 
+  mutate(
+    hour = hour(starttime)
+  ) %&gt;% 
+  group_by(hour) %&gt;% 
+  summarise(
+    n = n(),
+    .groups = 'keep'
+  )
+```
+
+---
+
+count: false
+ 
+
+.panel1-hours-auto[
+
+```r
+*ggplot(Hour,
+*      aes(x = hour, y = n))
+```
+]
+ 
+.panel2-hours-auto[
+&lt;img src="Presentation_files/figure-html/hours_auto_01_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-hours-auto[
+
+```r
+ggplot(Hour,
+       aes(x = hour, y = n))+
+* geom_line()
+```
+]
+ 
+.panel2-hours-auto[
+&lt;img src="Presentation_files/figure-html/hours_auto_02_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-hours-auto[
+
+```r
+ggplot(Hour,
+       aes(x = hour, y = n))+
+  geom_line()+
+* xlab("Hour (Local Time)")
+```
+]
+ 
+.panel2-hours-auto[
+&lt;img src="Presentation_files/figure-html/hours_auto_03_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-hours-auto[
+
+```r
+ggplot(Hour,
+       aes(x = hour, y = n))+
+  geom_line()+
+  xlab("Hour (Local Time)")+
+* ylab("Number of Respondents")
+```
+]
+ 
+.panel2-hours-auto[
+&lt;img src="Presentation_files/figure-html/hours_auto_04_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-hours-auto[
+
+```r
+ggplot(Hour,
+       aes(x = hour, y = n))+
+  geom_line()+
+  xlab("Hour (Local Time)")+
+  ylab("Number of Respondents")+
+* labs(
+*   title = "When do people start the CCES?"
+* )
+```
+]
+ 
+.panel2-hours-auto[
+&lt;img src="Presentation_files/figure-html/hours_auto_05_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-hours-auto[
+
+```r
+ggplot(Hour,
+       aes(x = hour, y = n))+
+  geom_line()+
+  xlab("Hour (Local Time)")+
+  ylab("Number of Respondents")+
+  labs(
+    title = "When do people start the CCES?"
+  )+
+* theme_bw()
+```
+]
+ 
+.panel2-hours-auto[
+&lt;img src="Presentation_files/figure-html/hours_auto_06_output-1.png" width="100%" /&gt;
+]
+
+&lt;style&gt;
+.panel1-hours-auto {
+  color: black;
+  width: 38.6060606060606%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel2-hours-auto {
+  color: black;
+  width: 59.3939393939394%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel3-hours-auto {
+  color: black;
+  width: NA%;
+  hight: 33%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+&lt;/style&gt;
+
+
+
+
+
+
+---
+
+class: inverse, middle, center
+
+
+# Spatial Data
+
+---
+
+# Overview
+
+--
+
+R contains simple and powerful tools to create maps using `ggplot` in conjunction with packages like `tigris` and `sf` (both are designed for spatial data)
+
+--
+
+This next section will quickly walk through how to draw a simple map in R using Census shapefiles and `ggplot`
+
+---
+
+# But what is a Shapefile?
+
+--
+
+ArcGIS defines it as
+
+--
+
+&gt; A shapefile is a simple, nontopological format for storing the geometric location and attribute information of geographic features. Geographic features in a shapefile can be represented by points, lines, or polygons (areas).
+
+--
+
+Basically a dataframe with data about a geographic boundary
+
+---
+
+# Getting Shape Files
+
+--
+
+The `tigris` package contains commands that help us interact with the Census API to get the shapefiles.
+
+
+```r
+library(tigris)
+```
+
+--
+
+The `counties()` command gets us shape files for a state of choice
+
+
+```r
+IL_county &lt;- counties("IL", cb = TRUE)
+```
+
+---
+
+# Exercise
+
+--
+
+The CCES has data for respondents from nearly every state.
+
+--
+
+Pick a state (not Illinois) and do the following:
+
+--
+
+1. Get the state's county shape files with `tigris`
+
+--
+
+2. Adopt the following code to your state to find the number of people who respond to the CCES by county, identified with `countyfips`
+
+
+```r
+IL &lt;- CCES_2018 %&gt;% filter(state == "IL") %&gt;% 
+  group_by(countyfips) %&gt;% 
+  summarise(
+    n = n(),
+    .groups = 'keep'
+  ) 
+```
+
+---
+
+# Prepare for mapping
+
+--
+
+Use the following code (change state abbreviation) to fix your data for mapping
+
+--
+
+
+```r
+IL_respondents &lt;- left_join(
+  IL_county,
+  IL,
+  by = c("GEOID" = "countyfips")
+) %&gt;% 
+  mutate(
+    respondents = ifelse(is.na(n), 0, n)
+  )
+```
+
+---
+
+# Mapping
+
+--
+
+The `sf` package provides tools to use with `ggplot2::geom_sf()` 
+
+--
+
+
+```r
+library(sf)
+```
+
+---
+
+count: false
+ 
+
+.panel1-maps-auto[
+
+```r
+*ggplot()
+```
+]
+ 
+.panel2-maps-auto[
+&lt;img src="Presentation_files/figure-html/maps_auto_01_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-maps-auto[
+
+```r
+ggplot()+
+* geom_sf(
+*   data = IL_respondents,
+*   aes(fill = respondents))
+```
+]
+ 
+.panel2-maps-auto[
+&lt;img src="Presentation_files/figure-html/maps_auto_02_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-maps-auto[
+
+```r
+ggplot()+
+  geom_sf(
+    data = IL_respondents,
+    aes(fill = respondents))+
+* scale_fill_gradient(
+*   low = "gray100",
+*   high = "gray0",
+*   na.value = "black",
+*   limits   = c(0, 100)
+* )
+```
+]
+ 
+.panel2-maps-auto[
+&lt;img src="Presentation_files/figure-html/maps_auto_03_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-maps-auto[
+
+```r
+ggplot()+
+  geom_sf(
+    data = IL_respondents,
+    aes(fill = respondents))+
+  scale_fill_gradient(
+    low = "gray100",
+    high = "gray0",
+    na.value = "black",
+    limits   = c(0, 100)
+  )+
+* labs(
+*   title    = "Illinois",
+*   subtitle = "Number of CCES Respondents from Each County",
+*   fill     = "Number of \n Respondents"
+* )
+```
+]
+ 
+.panel2-maps-auto[
+&lt;img src="Presentation_files/figure-html/maps_auto_04_output-1.png" width="100%" /&gt;
+]
+
+---
+count: false
+ 
+
+.panel1-maps-auto[
+
+```r
+ggplot()+
+  geom_sf(
+    data = IL_respondents,
+    aes(fill = respondents))+
+  scale_fill_gradient(
+    low = "gray100",
+    high = "gray0",
+    na.value = "black",
+    limits   = c(0, 100)
+  )+
+  labs(
+    title    = "Illinois",
+    subtitle = "Number of CCES Respondents from Each County",
+    fill     = "Number of \n Respondents"
+  )+
+* theme_void()
+```
+]
+ 
+.panel2-maps-auto[
+&lt;img src="Presentation_files/figure-html/maps_auto_05_output-1.png" width="100%" /&gt;
+]
+
+&lt;style&gt;
+.panel1-maps-auto {
+  color: black;
+  width: 38.6060606060606%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel2-maps-auto {
+  color: black;
+  width: 59.3939393939394%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel3-maps-auto {
+  color: black;
+  width: NA%;
+  hight: 33%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+&lt;/style&gt;
+
+
+
+
+
+---
+
+# Pull it ALL Together
+
+--
+
+Take the mapping code and adjust it to your data
+
+--
+
+While you are at it, add a title and see what happens when you change the limits under `scale_fill_gradient()`
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
