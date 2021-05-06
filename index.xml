@@ -5,7 +5,7 @@
     <link>https://lin-jennifer.github.io/</link>
       <atom:link href="https://lin-jennifer.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>JENNIFER LIN</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2021</copyright><lastBuildDate>Mon, 03 May 2021 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2021</copyright><lastBuildDate>Mon, 03 May 2021 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/images/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
       <title>JENNIFER LIN</title>
@@ -21,12 +21,28 @@
     </item>
     
     <item>
+      <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 49$:$ Vaccinating America&#39;s Youth</title>
+      <link>https://lin-jennifer.github.io/publication/csr49/</link>
+      <pubDate>Mon, 03 May 2021 15:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/publication/csr49/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The State of the Nation$:$ Understanding Attitudes and Behaviors during the COVID-19 Pandemic</title>
       <link>https://lin-jennifer.github.io/event/ncfmay2021/</link>
       <pubDate>Mon, 03 May 2021 14:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/event/ncfmay2021/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../NCFMay2021.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 48$:$ Assessing the Impact of the Pause in Johnson &amp; Johnson Vaccine use on COVID-19 Vaccination Intent</title>
+      <link>https://lin-jennifer.github.io/publication/csr48/</link>
+      <pubDate>Fri, 30 Apr 2021 15:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/publication/csr48/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -174,18 +190,18 @@
     </item>
     
     <item>
-      <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 29$:$ Election Fairness and Trust in Institutions</title>
-      <link>https://lin-jennifer.github.io/publication/csr29/</link>
-      <pubDate>Tue, 15 Dec 2020 15:00:00 +0000</pubDate>
-      <guid>https://lin-jennifer.github.io/publication/csr29/</guid>
+      <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 30$:$ Economic Hardships Due to the COVID-19 Pandemic</title>
+      <link>https://lin-jennifer.github.io/publication/csr30/</link>
+      <pubDate>Wed, 16 Dec 2020 15:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/publication/csr30/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 30$:$ Economic Hardships Due to the COVID-19 Pandemic</title>
-      <link>https://lin-jennifer.github.io/publication/csr30/</link>
+      <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 29$:$ Election Fairness and Trust in Institutions</title>
+      <link>https://lin-jennifer.github.io/publication/csr29/</link>
       <pubDate>Tue, 15 Dec 2020 15:00:00 +0000</pubDate>
-      <guid>https://lin-jennifer.github.io/publication/csr30/</guid>
+      <guid>https://lin-jennifer.github.io/publication/csr29/</guid>
       <description></description>
     </item>
     
