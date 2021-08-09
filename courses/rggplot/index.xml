@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R Workshop$:$ Pipes and `ggplot` | JENNIFER LIN</title>
+    <title>R Workshop$:$ Pipes and ggplot | JENNIFER LIN</title>
     <link>https://lin-jennifer.github.io/courses/rggplot/</link>
       <atom:link href="https://lin-jennifer.github.io/courses/rggplot/index.xml" rel="self" type="application/rss+xml" />
-    <description>R Workshop$:$ Pipes and `ggplot`</description>
+    <description>R Workshop$:$ Pipes and ggplot</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2021</copyright><lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/media/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
-      <title>R Workshop$:$ Pipes and `ggplot`</title>
+      <title>R Workshop$:$ Pipes and ggplot</title>
       <link>https://lin-jennifer.github.io/courses/rggplot/</link>
     </image>
     
