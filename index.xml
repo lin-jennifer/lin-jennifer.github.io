@@ -5,7 +5,7 @@
     <link>https://lin-jennifer.github.io/</link>
       <atom:link href="https://lin-jennifer.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>JENNIFER LIN</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2021</copyright><lastBuildDate>Wed, 04 Aug 2021 15:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2021</copyright><lastBuildDate>Wed, 11 Aug 2021 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/media/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
       <title>JENNIFER LIN</title>
@@ -21,7 +21,15 @@
     </item>
     
     <item>
-      <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 58$:$ What Americans Think About People Who Are Not Vaccinated</title>
+      <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 61$:$ Parental Concerns about COVID-19 Vaccines</title>
+      <link>https://lin-jennifer.github.io/publication/csr61/</link>
+      <pubDate>Wed, 11 Aug 2021 15:00:00 +0000</pubDate>
+      <guid>https://lin-jennifer.github.io/publication/csr61/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 59$:$ What Americans Think About People Who Are Not Vaccinated</title>
       <link>https://lin-jennifer.github.io/publication/csr59/</link>
       <pubDate>Wed, 04 Aug 2021 15:00:00 +0000</pubDate>
       <guid>https://lin-jennifer.github.io/publication/csr59/</guid>
@@ -245,6 +253,8 @@ library(lin)
 &lt;li&gt;Report 57: &lt;a href=&#34;https://osf.io/uvqbs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Social Media News Consumption and COVID-19 Vaccination Rates&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Report 58: &lt;a href=&#34;https://osf.io/6wcn9/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;High Public Support for Mandating Vaccines&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Report 59$^{*}$: &lt;a href=&#34;https://osf.io/fy6jz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What Americans Think About People Who Are Not Vaccinated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Report 60: &lt;a href=&#34;https://osf.io/xtjad/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vaccine misinformation: From uncertainty to resistance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Report 61$^{*}$: &lt;a href=&#34;https://osf.io/c2xmj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Parental concerns about COVID-19 vaccines&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
