@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PS 210$:$ Introduction to Empirical Methods in Political Science | JENNIFER LIN</title>
+    <link>https://lin-jennifer.github.io/courses/ps210/</link>
+      <atom:link href="https://lin-jennifer.github.io/courses/ps210/index.xml" rel="self" type="application/rss+xml" />
+    <description>PS 210$:$ Introduction to Empirical Methods in Political Science</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2021</copyright><lastBuildDate>Wed, 15 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lin-jennifer.github.io/media/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
+      <title>PS 210$:$ Introduction to Empirical Methods in Political Science</title>
+      <link>https://lin-jennifer.github.io/courses/ps210/</link>
+    </image>
+    
+    <item>
+      <title>Week 1$:$ Concepts and Measurements</title>
+      <link>https://lin-jennifer.github.io/courses/ps210/week1/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0100</pubDate>
+      <guid>https://lin-jennifer.github.io/courses/ps210/week1/</guid>
+      <description>&lt;h1 id=&#34;handout&#34;&gt;Handout&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;./1_Overview_Notes.pdf&#34;&gt;Week 1 Handout (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;political-science-is-a-science&#34;&gt;Political Science is a &lt;em&gt;&lt;strong&gt;SCIENCE&lt;/strong&gt;&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Political Science is a &lt;em&gt;&lt;strong&gt;Science&lt;/strong&gt;&lt;/em&gt; and so the study of politics (Political Science) follows many of the steps any scientist (be it a Biologist, Chemist, Physicist) would follow&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ask Questions&lt;/li&gt;
+&lt;li&gt;Do Research and Formulate a theory&lt;/li&gt;
+&lt;li&gt;Make Predictions&lt;/li&gt;
+&lt;li&gt;Test Predictions with Data and Experiments&lt;/li&gt;
+&lt;li&gt;Run statics and report results&lt;/li&gt;
+&lt;li&gt;Share findings with the world!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In Political Science, we try to model political space by asking questions and finding answers. However, models do not cover everything.&lt;/p&gt;
+&lt;p&gt;Think about models in your life. What comes to mind? Maybe toy cars, blueprints, maps, globes? Each of these try to model something of interest. Specifically, a car, a house (or whatever it is intending to build), streets in a city, and the world. Yet, each model is missing something.&lt;/p&gt;
+&lt;p&gt;Think about a model of a house. If you are a plumber, you might only care about where the pipes are. If you are an electrician, maybe how the electric grid runs. If you are a painter, you only want to know the square footage of the walls, and if you are an interior designer, maybe just the layout of the space. Inherently, if I asked each of these roles to draw a model of a house, I will get different results. This is because models only display some parts well but not others. A model of a house from an interior designer will mean almost nothing to a plumber.&lt;/p&gt;
+&lt;p&gt;This is political science at its core. Social Science research only covers some aspect of the world. Any one study or any one way of measuring a concept is &lt;em&gt;always&lt;/em&gt; wrong. It is &lt;em&gt;always&lt;/em&gt; missing something.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s take my research agenda as an example. I study rural political behavior. But it is a lot to write a paper on rural political behavior for the entire world. Therefore, it is only reasonable for me to break up the study of rural political behavior into several, more manageable question chunks. Here is a non-exhaustive list of more specific questions, where you can further break it down to even more specific questions if you want.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is &amp;ldquo;rural&amp;rdquo; and how do we measure it?&lt;/li&gt;
+&lt;li&gt;What kinds of political behavior are we interested?&lt;/li&gt;
+&lt;li&gt;What perspective are we taking? (historical, recent elections, etc.?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;measurement&#34;&gt;Measurement&lt;/h2&gt;
+&lt;p&gt;So you want to model something in political science? What is the concept that you want to measure? What are some things we need to consider in thinking about how to measure this concept?&lt;/p&gt;
+&lt;p&gt;Suppose we are interested in measuring someone&amp;rsquo;s feelings towards a member of the opposing party. In thinking about a way to measure someone&amp;rsquo;s feelings towards a member of the opposing party, we need to hash out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How we define &amp;ldquo;feelings&amp;rdquo; and &amp;ldquo;opposing party&amp;rdquo;?&lt;/li&gt;
+&lt;li&gt;Reliability of the Measure &amp;ndash; same thing each time&lt;/li&gt;
+&lt;li&gt;Validity of the Measure &amp;ndash; measures what we are intending&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A common way of measuring this concept is the feeling thermometer, where respondent rate, from a  0 to 100 scale, how warmly they feel towards members of their own or opposing party. But remember, all models are wrong! WHat does this measurement not assess? Perhaps trust? Intent to socialize? Belonging? All of these are valid and researchers have developed items to measure feelings towards opposing partisans to address each of these concepts.&lt;/p&gt;
+&lt;h1 id=&#34;slides&#34;&gt;Slides&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;./W1_Slides.pdf&#34;&gt;Week 1 Slides (PDF)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
