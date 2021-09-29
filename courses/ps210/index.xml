@@ -53,5 +53,96 @@
 </description>
     </item>
     
+    <item>
+      <title>Week 2$:$ Descriptive Statistics and Causality</title>
+      <link>https://lin-jennifer.github.io/courses/ps210/week2/</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0100</pubDate>
+      <guid>https://lin-jennifer.github.io/courses/ps210/week2/</guid>
+      <description>&lt;h2 id=&#34;handout&#34;&gt;Handout&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./2_Descriptives_Notes.pdf&#34;&gt;Week 2 Handout (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: For all images, please refer to the PDF file above.&lt;/p&gt;
+&lt;h2 id=&#34;descriptive-statistics&#34;&gt;Descriptive Statistics&lt;/h2&gt;
+&lt;p&gt;When we have data, we want to know what our data look like and what story it tells. The most simple way to quickly glance at our data is using &lt;strong&gt;descriptive statistics&lt;/strong&gt; such as the mean, median and mode concepts we came to love since elementary school. These statistics are simple models of our data. But before calculating any means, medians or modes, it is important to consider the way we constructed the measurements so we know how to best build our model, however simple.&lt;/p&gt;
+&lt;p&gt;Suppose we want to model ice cream tastes of students at Northwestern. We can do this in many ways. Here are three very simple ways. To illustrate the examples that follow, I constructed a simple data set that we will use to follow along. This data set includes a hypothetical sample of 100 Northwestern Wildcats.&lt;/p&gt;
+&lt;h3 id=&#34;nominal-scales&#34;&gt;Nominal Scales&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Nominal scales&lt;/strong&gt; are categorical. In survey questions, they represent items that sort into categories, often descriptive.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;What is your favorite ice cream flavor?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Chocolate&lt;/li&gt;
+&lt;li&gt;Vanilla&lt;/li&gt;
+&lt;li&gt;Mint Chocolate Chip&lt;/li&gt;
+&lt;li&gt;Coffee&lt;/li&gt;
+&lt;li&gt;Strawberry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;These data are often described using a bar graph or a pie chart. Given the small number of categories, you are likely better off just summarizing them in a table. Nonetheless, here is a bar graph of our results&lt;/p&gt;
+&lt;h3 id=&#34;ordinal-scales&#34;&gt;Ordinal Scales&lt;/h3&gt;
+&lt;p&gt;In the case of &lt;strong&gt;ordinal scales&lt;/strong&gt;, we are interested in questions that generate an ordered scale as the response options. These can include items such as &amp;ldquo;From a scale of 0 - 10, how much do you like ice cream?&amp;rdquo; or &amp;ldquo;Do you agree or disagree with the notion that ice cream is a good desert?&amp;rdquo; For our ice cream example, here is a question to consider. The options range from &amp;ldquo;Strongly disagree&amp;rdquo; to &amp;ldquo;Strongly agree&amp;rdquo;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Do you agree or disagree with the fact that Vanilla Ice Cream is your favorite ice cream flavor&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Strongly Disagree&lt;/li&gt;
+&lt;li&gt;Disagree&lt;/li&gt;
+&lt;li&gt;Neither Agree nor Disagree&lt;/li&gt;
+&lt;li&gt;Agree&lt;/li&gt;
+&lt;li&gt;Strongly Agree&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We can summarize these results in a similar way that we did the nominal results. Alternatively, we can cover them to numbers and generate means and medians.&lt;/p&gt;
+&lt;h3 id=&#34;interval-scales&#34;&gt;Interval Scales&lt;/h3&gt;
+&lt;p&gt;Finally, &lt;strong&gt;Interval Scales&lt;/strong&gt; are scales that use a numeric interval in the response options. Often, these have a meaningful zero and the numbers are evenly spaced apart. When you ask your friend what the temperature is outside, they likely will give you a number on the Celsius or Fahrenheit scales that both have meaningful zeros^[I guess the Celsius more so than Fahrenheit since $0^{\circ}\text{C}$ is the freezing point of water.]. When you buy something, the cashier would measure the amount you owe in dollars and cents, where there is also a meaningful zero. In our ice cream study, we can consider the following question.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;How many scoops of ice cream do you eat each day?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Instead of the graphs, we can better understand our data with means and medians.&lt;/p&gt;
+&lt;h2 id=&#34;introduction-to-causality&#34;&gt;Introduction to Causality&lt;/h2&gt;
+&lt;h3 id=&#34;the-basics&#34;&gt;The Basics&lt;/h3&gt;
+&lt;p&gt;On a hot summer day, we can reasonably expect ourselves to become dehydrated, or our ice cream to melt almost instantly. Here, we are able to pinpoint direct causes of effects that we want to observe.&lt;/p&gt;
+&lt;p&gt;However, social science is not always as straightforward. If a tree fell in the woods, and no one was there to witness it, (a) do we know it fell and (b) can we reasonably make suggestions as to how it fell?&lt;/p&gt;
+&lt;p&gt;Causal inference is about pinpointing, with &lt;em&gt;pretty good&lt;/em&gt; certainty, how the tree fell. It is drawing a direct relationship between two variables X and Y. Notice the emphasis on &lt;em&gt;pretty good&lt;/em&gt;. This is because we cannot gain a full sense of cause in social science research, due to the error or noise that is bound to arise in human behavior.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s turn to a case study on voting. Why do people go vote? Can it be based on any of the following?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interest in politics&lt;/li&gt;
+&lt;li&gt;Knowledge of the candidates and issues&lt;/li&gt;
+&lt;li&gt;Desire to make a change in the community&lt;/li&gt;
+&lt;li&gt;Tagging along with friends and family&lt;/li&gt;
+&lt;li&gt;Why not?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But at the same time, can any of these be an effect of voting?&lt;/p&gt;
+&lt;h3 id=&#34;the-four-questions&#34;&gt;The Four Questions&lt;/h3&gt;
+&lt;p&gt;Using our voting example, let&amp;rsquo;s focus on the &amp;ldquo;Desire to make change in the community&amp;rdquo; aspect. Can this desire lead people to vote?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Is there a relationship between X and Y?&lt;/strong&gt; &amp;ndash; For voting, sure! Desires to make change leads to voting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Could Y cause X?&lt;/strong&gt; &amp;ndash; Can voting lead to greater desires to make change? Likely, since you now began a journey of political engagement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Is there a causal pathway from X to Y?&lt;/strong&gt; &amp;ndash; Likely, if we design a model to isolate the correct variables&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Could there be confounding variables?&lt;/strong&gt; &amp;ndash; OH&amp;hellip; ABSOLUTELY!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;experiments&#34;&gt;Experiments&lt;/h3&gt;
+&lt;p&gt;Experiments are one of the best ways to identify causal mechanisms. You create two comparable groups using random assignment, give one group the treatment and another no treatment. Now, the only difference between the groups is the treatment, since both groups are, in theory, comparable (or the same).&lt;/p&gt;
+&lt;p&gt;$$
+Y_{i, T} \ = \ \text{Treatment}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+Y_{i, C} \ = \ \text{Control}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\text{Causal Effect} \ = \ Y_{i, T} - Y_{i, C}
+$$&lt;/p&gt;
+&lt;p&gt;Suppose we want to know whether &lt;strong&gt;desire to effect change&lt;/strong&gt; in society really causes &lt;strong&gt;voter turnout&lt;/strong&gt;. We con conduct an experiment using the following conditions.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$Y_{i, T}$: Prime Desire to Effect Change in society by telling people about things in their neighborhood that need to change&lt;/li&gt;
+&lt;li&gt;$Y_{i, C}$: Control message &amp;ndash; Recycling is good for the planet&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If a desire to effect change causes turnout, then the treatment conditions will see a higher turnout rate than the control condition.&lt;/p&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./W2_Slides.pdf&#34;&gt;Week 2 Slides (PDF)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
