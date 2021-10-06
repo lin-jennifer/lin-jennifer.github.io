@@ -153,6 +153,69 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Week 3$:$ Sampling and Surveys</title>
+      <link>https://lin-jennifer.github.io/courses/ps210/week3/</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0100</pubDate>
+      <guid>https://lin-jennifer.github.io/courses/ps210/week3/</guid>
+      <description>&lt;h2 id=&#34;handout&#34;&gt;Handout&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./3_Sampling_Notes.pdf&#34;&gt;Week 3 Handout (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;so-you-want-to-conduct-a-survey&#34;&gt;So you want to Conduct a Survey?&lt;/h2&gt;
+&lt;h3 id=&#34;what-you-need&#34;&gt;What you need&lt;/h3&gt;
+&lt;p&gt;To run a good survey, you need some of the following&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A &lt;strong&gt;RANDOM&lt;/strong&gt; Sample&lt;/li&gt;
+&lt;li&gt;Good Survey Questions&lt;/li&gt;
+&lt;li&gt;Skills to analyze survey data&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Today, we will focus on the &lt;strong&gt;Random&lt;/strong&gt; Sample component&lt;/p&gt;
+&lt;h3 id=&#34;what-is-random-what-is-a-sample&#34;&gt;What is Random? What is a Sample?&lt;/h3&gt;
+&lt;p&gt;First, what is a &lt;strong&gt;sample&lt;/strong&gt;? To figure that out, we need to know what is part of the &lt;strong&gt;population&lt;/strong&gt;, or the entire entity of the thing that we are interested in studying. Individuals or single unites in the population constitute our &lt;strong&gt;unit of analysis&lt;/strong&gt;. This can be people (a person), states (a state), or households (house).&lt;/p&gt;
+&lt;p&gt;When designing a study, your &lt;strong&gt;sample&lt;/strong&gt; is a selection of the units in the population and it should resemble the entire group of interest. There are many ways to pick a sample and there are positives and negatives of each method&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sampling of Convenience&lt;/strong&gt;: Select cases that are easily accessible.&lt;/p&gt;
+&lt;p&gt;a. EXAMPLE: Stand outside of dining hall and interview everyone trying to go in&lt;/p&gt;
+&lt;p&gt;b. EXAMPLE: Polls on FOX, CNN, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Quota Samples&lt;/strong&gt; are where you modify the convenience sample to make it more like the population&lt;/p&gt;
+&lt;p&gt;a. This is also known as &lt;strong&gt;non-probability sampling&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. This is often used in online survey marketplaces and Amazon Mechanical Turk&lt;/p&gt;
+&lt;p&gt;c. EXAMPLE: The COVID States Project: &lt;a href=&#34;https://covidstates.org/&#34;&gt;https://covidstates.org/&lt;/a&gt; &lt;br&gt;
+- We want to know political attitudes and behaviors of people in each US State &lt;br&gt;
+- We conduct online samples to get respondents from each US State &lt;br&gt;
+- Each state has a quota of 300-500 per wave, depending on size.&lt;br&gt;
+- Within each state, we do race, gender and age cross tabs so that each bucket gets a fix number equivalent to their percent in the state.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Random Sampling&lt;/strong&gt; is where each case has an equal and known probability of being selected&lt;/p&gt;
+&lt;p&gt;a. Also known as &lt;strong&gt;Probability Sampling&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. Often done by Random Digit Dialing&lt;/p&gt;
+&lt;p&gt;c. EXAMPLE: Kaiser Family Foundation (Random Digit Dialing)&lt;/p&gt;
+&lt;p&gt;d. &lt;strong&gt;Law of Large Numbers&lt;/strong&gt;: Random Sampling gives us a good approximation of the population with a large enough population&lt;/p&gt;
+&lt;p&gt;e. Types of Random Samples:&lt;br&gt;
+1. &lt;strong&gt;Simple Random Sample&lt;/strong&gt;: Each person has the same probability of being included.&lt;br&gt;
+2. &lt;strong&gt;Cluster Sample&lt;/strong&gt;: Group participants into meaningful subgroups and select the subgroup to its entirety.&lt;br&gt;
+3. &lt;strong&gt;Stratified Random Sampling&lt;/strong&gt;: Group participants into meaningful subgroups and select samples from the subgroup where EACH member of the subgroup has the same probability of selection.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;issues-with-surveys&#34;&gt;Issues with Surveys&lt;/h3&gt;
+&lt;p&gt;Surveys may have multiple issues related to measurements. For the sampling front, however, we are interested in issues with the sample recruitment. Some issues here might include&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Non-response&lt;/strong&gt;: People selected for the survey just don&amp;rsquo;t want to engage with the survey&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hard to Reach Populations&lt;/strong&gt;: Some people who are selected for surveys might not be able to access the survey OR it can be hard to reach some people since they are difficult to identify.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are some ways to address these issues. But to do this, we need to be creative with our sampling methods.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Snowball Sampling&lt;/strong&gt;: Getting potential participants from current participants&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respondent-driven Sampling&lt;/strong&gt;: Go where the participants are (or might be)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./W3_Slides.pdf&#34;&gt;Week 3 Slides (PDF)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The State of the Nation$:$ A 50-State COVID-19 Survey, Report 61$:$ Parental Concerns about COVID-19 Vaccines</title>
       <link>https://lin-jennifer.github.io/publication/csr61/</link>
       <pubDate>Wed, 11 Aug 2021 15:00:00 +0000</pubDate>
