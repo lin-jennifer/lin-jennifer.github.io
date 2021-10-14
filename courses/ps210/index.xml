@@ -207,5 +207,43 @@ $$&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Week 4$:$ Surveys, Experiments, Midterms and More</title>
+      <link>https://lin-jennifer.github.io/courses/ps210/week4/</link>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0100</pubDate>
+      <guid>https://lin-jennifer.github.io/courses/ps210/week4/</guid>
+      <description>&lt;h2 id=&#34;handout&#34;&gt;Handout&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./4_Review_NOTES.pdf&#34;&gt;Week 4 Handout (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;writing-a-good-survey-question&#34;&gt;Writing a Good Survey Question&lt;/h2&gt;
+&lt;p&gt;Surveys are often built to compare groups, describe something or analyze something. Survey questions are designed for you to be able to ask people about their attitudes and behaviors on certain topics. As such, people are self-reporting the information through the questions that you pose to them. Writing a good survey question can be rather difficult as you need to consider and ask about the who, what, when, where, why and how of the situation. There are so many things to think about and there are often space limitations so the struggle is getting the questions out and fitting it into the framework set by your resource limitations (i.e. time, length of the survey etc.).&lt;/p&gt;
+&lt;p&gt;Therefore, when writing a survey question, there are few things that we need to think about. First, it is important for you to put yourself in the shoes of the participant. So how do participants answer survey questions?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stage 0: Encode Information&lt;/li&gt;
+&lt;li&gt;Stage 1: Understand all the words and what the question is asking&lt;/li&gt;
+&lt;li&gt;Stage 2: Recall all information and figure out how to answer the question&lt;/li&gt;
+&lt;li&gt;Stage 3: Assess initial answer for accuracy and completeness&lt;/li&gt;
+&lt;li&gt;Stage 4: Report answer by mapping your answer to the options given&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the process of putting yourself in your participants&#39; shoes, you should also think about the difficulty of the question and whether the understand the issues that you are talking about. (For example, do not ask about an obscure TV show if you know they are likely not watching it.)&lt;/p&gt;
+&lt;p&gt;Second, your questions should address one thing per question. Therefore, if you are interested in cars, do not ask people if cars should be faster and more energy efficient.&lt;/p&gt;
+&lt;p&gt;Finally, questions that are simpler are better and they should not make assumptions of knowledge. Make sure wording is clear and the language is easy to interpret.&lt;/p&gt;
+&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;fundamental problem of causal inference&lt;/strong&gt; is that we can’t compare a world with the cause to a world without the cause. Therefore, we use &lt;strong&gt;experiments&lt;/strong&gt; to solve this issue. In an experiment, we create two comparable groups using &lt;strong&gt;random assignment&lt;/strong&gt; and present one group with a treatment and another without. To be successful, the groups that result from random assignment should be relatively large and should reflect an independent selection process from the population, where each member had an equal chance of inclusion. This essentially creates a situation where we can study the treatment and control at the same time. There are several kinds of experiments&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Lab experiments&lt;/strong&gt;: Experiments are conducted in a lab or another controlled setting. For example, you can bring participants to the lab to test the effect of deliberation on political attitudes on various issues.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Field experiments&lt;/strong&gt;: Experiments are conducted in the natural environment but stimuli are controlled &amp;ndash; examples include going to neighborhoods and exposing people to treatments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Natural experiments&lt;/strong&gt;: Taking advantage of a comparative scenario between at least two groups and letting that be the treatment and control and observe the effect. For example, if you wanted to compare the effect of an earthquake on happiness, you can conduct a natural experiment comparing two towns, one hit by an earthquake and one that did not and see how it affected feelings of the people there.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Survey experiments&lt;/strong&gt;: Experiments that are done via surveys. The treatments are comparable to survey questions, but participants are often asked to read, listen, watch, write, or respond to some questions that serve as the treatment.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In experiments, we are concerned with two kinds of validity&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Internal Validity&lt;/strong&gt;: Does the treatment cause the dependent variable in this study?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;External Validity&lt;/strong&gt;: Does the treatment generalize across persons, settings, treatment variables and measurement variables? In other words, are the findings generalize in some way?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./W4_Slides.pdf&#34;&gt;Week 4 Slides (PDF)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
