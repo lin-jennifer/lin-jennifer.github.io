@@ -245,5 +245,145 @@ $$&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Week 6$:$ Confidence Intervals</title>
+      <link>https://lin-jennifer.github.io/courses/ps210/week6/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0100</pubDate>
+      <guid>https://lin-jennifer.github.io/courses/ps210/week6/</guid>
+      <description>&lt;h2 id=&#34;handout&#34;&gt;Handout&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./6_Confidence_NOTES.pdf&#34;&gt;Week 6 Handout (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;observational-studies-and-large-n-methods&#34;&gt;Observational Studies and Large N Methods&lt;/h2&gt;
+&lt;p&gt;Sometimes, we want to study things where we cannot randomly assign participants to the independent variable. In that case, we can only conduct &lt;strong&gt;observational studies&lt;/strong&gt;. &lt;strong&gt;Observational Studies&lt;/strong&gt; are research projects where we don&amp;rsquo;t assign values to the independent variable. We just see what happens.&lt;/p&gt;
+&lt;p&gt;Some examples of these projects include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Does living in a rural area predict conservative political attitudes?&lt;/li&gt;
+&lt;li&gt;What are some reasons that people are not getting the COVID-19 vaccine?&lt;/li&gt;
+&lt;li&gt;How do people perceive others who are vaccinated or not vaccinated?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To analyze the data in observational studies, we often require large N statistical methods. These are statistics tests that we use to analyze observational studies. For these methods, we care about the &lt;strong&gt;population&lt;/strong&gt; &lt;em&gt;parameter&lt;/em&gt; and &lt;strong&gt;sample&lt;/strong&gt; &lt;em&gt;statistic&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;population-parameters&#34;&gt;Population Parameters&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Parameters&lt;/em&gt; are aspects of the population that we care about. They are often denoted using Greek letters ( $\mu$, $\pi$, $\alpha$, $\beta$). They capture something that is true for the entire population.&lt;/p&gt;
+&lt;p&gt;Some examples of this include:&lt;/p&gt;
+&lt;p&gt;Examples&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Total number of registered Republicans and Democrats in the United States&lt;/li&gt;
+&lt;li&gt;Total number of people in the US who love vanilla ice cream&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;However, remember that it is difficult to study the entire population. Think back to the week on survey deign and sampling. We cannot expect to ask everyone in the population. Therefore, we can only expect to &lt;strong&gt;estimate&lt;/strong&gt; the population parameters &lt;em&gt;using statistics&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;statistics&#34;&gt;Statistics&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Statistics&lt;/em&gt; are estimates of the population using data that we gather from a subset of the population. We collect the samples using the sampling methods discussed earlier in the quarter (remember: Probability versus nonprobability sampling?). We can calculate sample statistics like mean from the sample and use them to predict the population. Sample statistics are usually denoted by letters (p, a, b).&lt;/p&gt;
+&lt;p&gt;The question then becomes: How do we know how &amp;ldquo;right&amp;rdquo; our predictions are? To answer this question, think back to the first week when we discussed models in this section. Remember that models are inherently missing something. Sampling statistics are models of the population. So how do we know how correct our models are especially since each of the sampling methods can be imperfect? We can use &lt;strong&gt;confidence Intervals&lt;/strong&gt;, which signals how &lt;em&gt;sure&lt;/em&gt; we are about our predictions. They show us a range of values [lower, upper] that is possible for the population parameter to lie given the findings from our sample. The most common confidence interval is the 95%, which shows that we are confident that the true population parameter (usually mean) is within the bounds of the calculated range 95% of the time.&lt;/p&gt;
+&lt;p&gt;Here are some ways to remember the gist of a confidence interval:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When calculating confidence intervals, you are casting a net for the true population mean. Therefore, the wider the net you cast, the more likely you are to get it.&lt;/li&gt;
+&lt;li&gt;When calculating confidence intervals, you are opening an umbrella to keep yourself dry in a rainstorm. The larger the umbrella, the more likely it is that you keep yourself dry.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;calculating-confidence-intervals&#34;&gt;Calculating Confidence Intervals&lt;/h2&gt;
+&lt;p&gt;To calculate a confidence interval, we need three pieces of information&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The mean (or parameter of interest)&lt;/li&gt;
+&lt;li&gt;The sample size&lt;/li&gt;
+&lt;li&gt;The confidence percentage&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;the-confidence-percentage&#34;&gt;The Confidence Percentage&lt;/h3&gt;
+&lt;p&gt;We need to determine how wide of a net to cast to ensure success. Traditionally, this is 95%. But, we can have other percentages as well. From there, we need to get our corresponding z-score.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Percent&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;z-score&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;90%&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1.65&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;95%&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1.96&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;99%&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2.57&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;the-mean-or-any-other-sample-statistic&#34;&gt;The Mean (or any other sample statistic)&lt;/h3&gt;
+&lt;p&gt;For means, we can compute this as we usually compute averages from sample statistics^[For means, this is often denoted as $\overline{x}$]. Essentially, this component is a descriptive statistic that we derive from the sample we have drawn.&lt;/p&gt;
+&lt;h3 id=&#34;the-standard-error&#34;&gt;The Standard Error&lt;/h3&gt;
+&lt;p&gt;The standard error is the standard deviation of the sampling distribution. This is based on the sample size and is computed as follows:&lt;/p&gt;
+&lt;p&gt;$$
+SE = \sqrt{\frac{p \times (1 - p)}{N}}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;confidence-interval&#34;&gt;Confidence Interval&lt;/h3&gt;
+&lt;p&gt;Pulling this together, the way we calculate a confidence interval is as follows:&lt;/p&gt;
+&lt;p&gt;$$
+\overline{x} \pm z(\sqrt{\frac{p \times (1 - p)}{N}})
+$$&lt;/p&gt;
+&lt;h2 id=&#34;an-example-of-how-to-calculate-a-confidence-interval&#34;&gt;An Example of How to Calculate a Confidence Interval&lt;/h2&gt;
+&lt;p&gt;Suppose I polled a sample of Northwestern students to whether or not the approve of the quarter system. I want to predict whether the entire population of students approve the quarter system over the semester system.&lt;/p&gt;
+&lt;p&gt;To do this, I polled 40 students outside of the Norris University Center. I get the following:&lt;/p&gt;
+&lt;p&gt;Mean: .75 say they approve of the quarter system&lt;br&gt;
+N: 40&lt;/p&gt;
+&lt;p&gt;I want to compute a 95% Confidence Interval&lt;/p&gt;
+&lt;p&gt;First, I calculate the standard error&lt;/p&gt;
+&lt;p&gt;$$
+SE = \sqrt{\frac{.75 \times (1 - .75)}{40}} \approx 0.06846532
+$$&lt;/p&gt;
+&lt;p&gt;Then, I plug it into the broader equation&lt;/p&gt;
+&lt;p&gt;$$
+.75 \pm 1.96(0.06846532)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+.75 \pm 0.134192
+$$&lt;/p&gt;
+&lt;p&gt;And the result is&lt;/p&gt;
+&lt;p&gt;$$
+[0.615808, 0.884192] \ \text{or} \ [0.62, 0.88]
+$$&lt;/p&gt;
+&lt;p&gt;Bow, suppose I take the same condition but I want to estimate a 90% confidence interval. Here, I can use the same standard error (since no part of that has changed) and rewrite the calculations as follows:&lt;/p&gt;
+&lt;p&gt;$$
+.75 \pm 1.65(0.06846532)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+.75 \pm 0.1129678
+$$&lt;/p&gt;
+&lt;p&gt;$$
+[0.6370322, 0.8629678] \ \text{or} \ [0.63, 0.86]
+$$&lt;/p&gt;
+&lt;p&gt;As we can see, the interval in the 90% is smaller than the 95% since we are casting a smaller net.&lt;/p&gt;
+&lt;p&gt;Finally, now I am interested in calculating a 99% confidence interval. I can use the same conditions as I have before and rerun the math. Here is how that looks:&lt;/p&gt;
+&lt;p&gt;$$
+.75 \pm 2.57(0.06846532)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+.75 \pm 0.1759559
+$$&lt;/p&gt;
+&lt;p&gt;$$
+[0.5740441, 0.9259559] \ \text{or} \ [0.57, 0.93]
+$$&lt;/p&gt;
+&lt;p&gt;Notice that, compared to the 95% interval, this interval is wider and this is because we have casted a bigger net.&lt;/p&gt;
+&lt;p&gt;Changing up the scenario, suppose I am interested in the same question as before but instead of sampling 40 students, I have sampled 400 students outside of Norris instead.&lt;/p&gt;
+&lt;p&gt;To find the same 95% confidence interval, I can follow the same steps as before, starting with the standard error calculations.&lt;/p&gt;
+&lt;p&gt;$$
+SE = \sqrt{\frac{.75 \times (1 - .75)}{400}} \approx 0.02165064
+$$&lt;/p&gt;
+&lt;p&gt;And then, we can continue the calculations by plugging everything into the main equation.&lt;/p&gt;
+&lt;p&gt;$$
+.75 \pm 1.96(0.02165064)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+.75 \pm 0.04243525
+$$&lt;/p&gt;
+&lt;p&gt;$$
+[0.7075647, 0.7924353] \ \text{or} \ [0.70, 0.79]
+$$&lt;/p&gt;
+&lt;p&gt;Notice that, with the bigger sample, even on the same confidence level, our confidence interval closes around the mean. This is because a larger sample allows us to get a better sense of the population, making it a more precise estimate (as opposed to accurate since we are still not sure if our sample is actually good at capturing the true mean.)&lt;/p&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./W6_Slides.pdf&#34;&gt;Week 6 Slides (PDF)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
