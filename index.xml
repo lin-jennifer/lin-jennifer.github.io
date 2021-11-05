@@ -5,7 +5,7 @@
     <link>https://lin-jennifer.github.io/</link>
       <atom:link href="https://lin-jennifer.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>JENNIFER LIN</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2021</copyright><lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Jennifer Lin, 2021</copyright><lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://lin-jennifer.github.io/media/icon_hu4799db72ccc21b5c03ae5dc4f5d5dc63_505273_512x512_fill_lanczos_center_2.png</url>
       <title>JENNIFER LIN</title>
@@ -390,6 +390,19 @@ $$&lt;/p&gt;
 &lt;p&gt;Notice that, with the bigger sample, even on the same confidence level, our confidence interval closes around the mean. This is because a larger sample allows us to get a better sense of the population, making it a more precise estimate (as opposed to accurate since we are still not sure if our sample is actually good at capturing the true mean.)&lt;/p&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;./W6_Slides.pdf&#34;&gt;Week 6 Slides (PDF)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week 7$:$ Regression</title>
+      <link>https://lin-jennifer.github.io/courses/ps210/week7/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0100</pubDate>
+      <guid>https://lin-jennifer.github.io/courses/ps210/week7/</guid>
+      <description>&lt;h2 id=&#34;handout&#34;&gt;Handout&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./7_Regression_NOTES.pdf&#34;&gt;Week 7 Handout (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See PDF for figures &amp;ndash; this is a figure heavy handout &amp;ndash; a separate HTML file can be provided upon request.&lt;/p&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;./W7_Slides.pdf&#34;&gt;Week 7 Slides (PDF)&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
