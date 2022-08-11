@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lin-jennifer.github.io/courses/mmss211/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://lin-jennifer.github.io/courses/advggplot-w22/</loc>
     <lastmod>2022-02-27T11:29:11-06:00</lastmod>
   </url><url>
@@ -41,56 +44,65 @@
     <loc>https://lin-jennifer.github.io/courses/ps210/week8/</loc>
     <lastmod>2022-02-27T11:29:11-06:00</lastmod>
   </url><url>
-    <loc>https://lin-jennifer.github.io/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
     <loc>https://lin-jennifer.github.io/publication-type/2/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lin-jennifer.github.io/publication/vaxmisinfojama/</loc>
-    <lastmod>2022-01-21T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/authors/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/author/david-lazer/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/author/james-druckman/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/author/john-della-volpe/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/author/jon-green/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/author/katherine-ognyanova/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/author/matthew-baum/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/author/matthew-simonson/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/author/mauricio-santillana/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/publication_types/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lin-jennifer.github.io/author/roy-h.-perlis/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
+    <loc>https://lin-jennifer.github.io/author/alauna-safarpour/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lin-jennifer.github.io/author/alexi-quintana/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lin-jennifer.github.io/publication/socialmediajama/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
+    <loc>https://lin-jennifer.github.io/authors/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/david-lazer/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lin-jennifer.github.io/author/hanyu-chwe/</loc>
-    <lastmod>2022-02-27T11:29:11-06:00</lastmod>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/james-druckman/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/john-della-volpe/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/jon-green/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/katherine-ognyanova/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/kristin-lunz-trujillo/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/matthew-baum/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/matthew-simonson/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/mauricio-santillana/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/publication/firearmjama/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/publication_types/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/author/roy-h.-perlis/</loc>
+    <lastmod>2022-03-21T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/publication/vaxmisinfojama/</loc>
+    <lastmod>2022-02-27T11:44:45-06:00</lastmod>
+  </url><url>
+    <loc>https://lin-jennifer.github.io/publication/socialmediajama/</loc>
+    <lastmod>2022-02-27T11:44:45-06:00</lastmod>
   </url><url>
     <loc>https://lin-jennifer.github.io/publication/vax_messages/</loc>
     <lastmod>2022-02-27T11:29:11-06:00</lastmod>
