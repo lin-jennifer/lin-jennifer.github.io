@@ -1,0 +1,9 @@
+---
+title: "CV"
+---
+
+My CV is available [here](Files/CV.pdf).
+
+{{< pdf Files/CV.pdf width=1000 height=600 >}}
+
+

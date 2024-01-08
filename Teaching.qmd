@@ -1,0 +1,46 @@
+---
+title: "Teaching Experience"
+---
+
+
+
+# Courses
+
+## As Teaching Assistant -- Northwetern University
+
+- **POLI SCI 220**: American Government and Politics – Matthew Pryor (Fall 2023 – Undergraduate)
+- **POLI SCI 405**: Linear Models – Mary McGrath (Winter 2023 – Graduate)
+- **DECS 435**: Business Analytics – Jorg Spenkuch (Fall 2022, Fall 2023 – Kellogg School of Management MBAi)
+- **POLI SCI 403**: Introduction to Probability and Statistics – J. Seawright (Fall 2022 – Graduate)
+- **MMSS 211-3**: Institutions, Rules, & Models in Social Science – Jean Clipperton (Spring 2022 – Undergraduate)
+- **MORS 457**: Social Dynamics and Network Analysis – Hyejin Youn (Winter 2022 – Kellogg
+School of Management MBA)
+- **POLI SCI 210**: Introduction to Empirical Methods for Political Science – J. Seawright (Fall 2021 – Undergraduate)
+
+## As Teaching Assistant -- New College of Florida
+
+- **PSYC 3550**: Social Psychology – Catherine Cottrell (Spring 2020)
+- **PSYC 2140**: Introduction to Psychology: Animal Thinking – Heidi Harley (Fall 2019)
+- **POLS 2100**: Introduction to American Politics – Jack Reilly (Fall 2018)
+- **ECON 2510**: Introduction to Macroeconomics – Sherry Yu (Spring 2018)
+
+# Workshops
+
+## As Instructor -- Northwetern University
+
+- **POLI SCI 490**: R Workshop: Social Network Analysis (Spring 2023 – Graduate)
+- **POLI SCI 490**: R Workshop: Troubleshooting R Code (Winter 2023 – Graduate)
+- **POLI SCI 490**: R Workshop: Geographic Information Systems (GIS) in R (Spring 2022 – Graduate)
+- **POLI SCI 490**: R Workshop: Advanced `ggplot2` (Winter 2022 – Graduate)
+- **POLI SCI 490**: R Workshop: Module on Graphs in `ggplot2` (Fall 2021, Fall 2022 – Graduate)
+- **Zotero**: Using Zotero (Fall 2021 – Undergraduate)
+- **R**: Pipes and `ggplot` (Spring 2021 – Graduate)
+
+## As Teaching Assistant -- Northwetern University
+
+- **Math Camp**: Mathematics Prefresher for Graduate Students in Political Science and Sociology (Fall 2022 – Graduate)
+
+
+
+
+

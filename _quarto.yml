@@ -3,16 +3,33 @@ project:
   output-dir: docs
 
 website:
-  title: "Website"
+  title: "Jennifer Lin"
+  twitter-card: 
+    site: "@jennifer_lin16"
+  page-footer: "Copyright 2024, Jennifer Lin" 
+  cookie-consent: true
   navbar:
+    tools:
+      - icon: twitter
+        href: https://twitter.com/jennifer_lin16
+        aria-label: Twitter
+      - icon: github
+        href: https://github.com/lin-jennifer
+        aria-label: GitHub
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: Research.qmd
+        text: Research
+      - href: Teaching.qmd
+        text: Teaching
+      - CV.qmd
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 
