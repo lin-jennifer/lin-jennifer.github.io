@@ -2,10 +2,6 @@
 title: "Welcome!"
 ---
 
-*Thank you for your interest. My website is currently under construction and should be available and active again starting Winter 2024. Please do not hesitate to reach out to me at [jenniferlin2025@u.northwestern.edu](mailto:jenniferlin2025@u.northwestern.edu) with any questions or concerns.*
-
-*Thank you and Happy Holidays!*
-
 :::: {.columns}
 
 ::: {.column width="28%"}
@@ -26,5 +22,5 @@ Beyond my research, I am passionate about teaching and mentoring students. I am 
 
 I earned my Bachelors of Arts (BA) with Honors in Psychology and Political Science from New College of Florida.
 
-**I am on the Academic Job Market in Fall 2024.** My CV is available [here](Files/CV.pdf).
+<!-- **I am on the Academic Job Market in Fall 2024.** My CV is available [here](Files/CV.pdf).-->
 
