@@ -33,13 +33,13 @@ I am interested in the role of context, specifically based in one's place of res
 <ol reversed>
 <li> **Lin, J.**, & Lunz Trujillo, K. (2023). Are Rural Attitudes Just Republican? *Political Science Research and Methods.* <br>
 <a role="button" href="Files/Papers/Republican_PSRM_2023.pdf" type="button" class="btn btn-outline-secondary btn-xs"> {{< bi file-pdf >}} PDF </a>
-<a role="button" href="https://doi.org/10.7910/DVN/2MZE9D" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai dataverse >}} Dataverse </a> 
+<a role="button" href="https://doi.org/10.7910/DVN/2MZE9D" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai open-materials >}} Data and Code </a> 
 <a role="button" href="https://doi.org/10.1017/psrm.2023.48" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai doi >}} DOI </a> <br><br>
 </li>
 
 <li> **Lin, J.**, & Lunz-Trujillo, K. (2022) Urban-Rural Differences in Non-Voting Political Behavior. *Political Research Quarterly 76*(2), 851–868. <br>
 <a role="button" href="Files/Papers/NonVoting_PRQ_2023.pdf" type="button" class="btn btn-outline-secondary btn-xs"> {{< bi file-pdf >}} PDF </a>
-<a role="button" href="https://doi.org/10.7910/DVN/UIUV3U" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai dataverse >}} Dataverse </a>
+<a role="button" href="https://doi.org/10.7910/DVN/UIUV3U" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai open-materials >}} Data and Code </a>
 <a role="button" href="https://doi.org/10.1177/10659129221119195" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai doi >}} DOI </a> <br><br>
 </li>
 
