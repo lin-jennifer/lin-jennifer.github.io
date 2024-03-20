@@ -62,8 +62,13 @@ Another major factor determining one's political attitudes and behavior is roote
 ### Peer Reviewed Journal Articles
 
 <ol reversed>
-<li> **Lin, J.** (Forthcoming). From Barack Obama to Donald Trump: The Evolution of Moral Appeals in National Conventions. </li>
-<li> Christenson, D. P., **Lin, J.**, & Makse, T. (2021). Ask Only What Your Country Can Do for You: Group Interests, Constituency Characteristics, and Demands for Representation. *American Politics Research 49*(1), 17 - 29.<br>
+<li> **Lin, J.** (2024). From Barack Obama to Donald Trump: The Evolution of Moral Appeals in National Conventions. <br>
+<a role="button" href="Files/Papers/NatCon_JLP_2024.pdf" type="button" class="btn btn-outline-secondary btn-xs"> {{< bi file-pdf >}} PDF </a> 
+<a role="button" href="https://doi.org/10.7910/DVN/MZUCUA" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai open-materials >}} Data and Code </a>
+<a role="button" href="https://doi.org/10.1075/jlp.22173.lin" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai doi >}} DOI </a> <br><br>
+</li>
+
+<li> Christenson, D. P., **Lin, J.**, & Makse, T. (2021). Ask Only What Your Country Can Do for You: Group Interests, Constituency Characteristics, and Demands for Representation. *American Politics Research 49*(1), 17 - 29. <br>
 <a role="button" href="Files/Papers/DFR_APR_2021.pdf" type="button" class="btn btn-outline-secondary btn-xs"> {{< bi file-pdf >}} PDF </a> 
 <a role="button" href="https://doi.org/10.1177/1532673X20961028" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai doi >}} DOI </a> <br><br>
 </li>
@@ -92,7 +97,10 @@ Finally, current events, like the COVID-19 Pandemic in 2020, shapes the context 
 <a role="button" href="https://doi.org/10.1017/rep.2023.39" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai doi >}} DOI </a> <br><br>
 </li>
 
-<li> Lunz Trujillo, K., Green, J., Safarpour, A. C., Lazar, D., **Lin, J.**, & Motta, M. (Forthcoming). COVID-19 Spillover Effects onto General Vaccine Attitudes. *Public Opinion Quarterly*. <br><br> </li>
+<li> Lunz Trujillo, K., Green, J., Safarpour, A. C., Lazar, D., **Lin, J.**, & Motta, M. (2024). COVID-19 Spillover Effects onto General Vaccine Attitudes. *Public Opinion Quarterly*. <br>
+<a role="button" href="Files/Papers/Spillover_POQ_2024.pdf" type="button" class="btn btn-outline-secondary btn-xs"> {{< bi file-pdf >}} PDF </a>
+<a role="button" href="https://doi.org/10.1093/poq/nfad059" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai doi >}} DOI </a> <br><br>
+</li>
 
 <li> Baum, M. A., Druckman, J. N., Simonson, M. D., **Lin, J.**, & Perlis, R. H. (2023). The Political Consequences of Depression: How Conspiracy Beliefs, Participatory Inclinations, and Depression Affect Support for Political Violence. *American Journal of Political Science*. <br>
 <a role="button" href="Files/Papers/Depression_AJPS_2023.pdf" type="button" class="btn btn-outline-secondary btn-xs"> {{< bi file-pdf >}} PDF </a>
