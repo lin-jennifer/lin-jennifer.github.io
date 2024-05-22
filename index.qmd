@@ -13,7 +13,7 @@ title: "Welcome!"
 :::
 
 ::: {.column width="70%"}
-Ny name is Jennifer Lin. I am a Ph.D. Candidate at the Department of Political Science at Northwestern University. My research interests are in American Politics and International Relations. I study civil-military relations, military professionalism, urban-rural politics, public opinion, social networks and political engagement. My research has appeared in the *American Journal of Political Science*, *British Journal of Political Science*, *Public Opinion Quarterly*, *Political Research Quarterly*, *Political Science Research and Methods*, *American Politics Research*, and *Journal of American Medical Association -- Network Open*.
+My name is Jennifer Lin. I am a Ph.D. Candidate at the Department of Political Science at Northwestern University. My research interests are in American Politics and International Relations. I study civil-military relations, military professionalism, urban-rural politics, public opinion, social networks and political engagement. My research has appeared in the *American Journal of Political Science*, *British Journal of Political Science*, *Public Opinion Quarterly*, *Political Research Quarterly*, *Political Science Research and Methods*, *American Politics Research*, and *Journal of American Medical Association -- Network Open*.
 :::
 
 ::::
