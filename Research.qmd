@@ -19,7 +19,7 @@ My dissertation is a book project that examines the role of the Reserve Officer 
 ## Publications
 
 <ol reversed>
-<li> **Lin, J.**, & Lunz Trujillo, K. (2024). Urban-Rural Differences in Respect for the Norms of American Civil-Military Relations. *American Politics Research* <br>
+<li> **Lin, J.**, & Lunz Trujillo, K. (2024). Urban-Rural Differences in Respect for the Norms of American Civil-Military Relations. *American Politics Research*. <br>
 <a role="button" href="Files/Papers/CMR_APR_2024.pdf" type="button" class="btn btn-outline-secondary btn-xs"> {{< bi file-pdf >}} PDF </a>
 <a role="button" href="https://doi.org/10.1177/1532673X241263085" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai doi >}} DOI </a> <br><br>
 </li>
@@ -70,7 +70,7 @@ Another major factor determining one's political attitudes and behavior is roote
 ### Peer Reviewed Journal Articles
 
 <ol reversed>
-<li> **Lin, J.** (2024). From Barack Obama to Donald Trump: The Evolution of Moral Appeals in National Conventions. *Journal of Language and Politics* <br>
+<li> **Lin, J.** (2024). From Barack Obama to Donald Trump: The Evolution of Moral Appeals in National Conventions. *Journal of Language and Politics*. <br>
 <a role="button" href="Files/Papers/NatCon_JLP_2024.pdf" type="button" class="btn btn-outline-secondary btn-xs"> {{< bi file-pdf >}} PDF </a> 
 <a role="button" href="https://doi.org/10.7910/DVN/MZUCUA" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai open-materials >}} Data and Code </a>
 <a role="button" href="https://doi.org/10.1075/jlp.22173.lin" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai doi >}} DOI </a> <br><br>
