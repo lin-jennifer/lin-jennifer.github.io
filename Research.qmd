@@ -39,6 +39,7 @@ I am interested in the role of context, specifically based in one's place of res
 ## Publications
 
 <ol reversed>
+<li> Lunz Trujillo, K. & **Lin, J.** (2025). Real or Imagined? American Urban-Rural Differences in Political Values. *Political Research Quarterly*.</li>
 <li> **Lin, J.**, & Lunz Trujillo, K. (2023). Are Rural Attitudes Just Republican? *Political Science Research and Methods.* <br>
 <a role="button" href="Files/Papers/Republican_PSRM_2023.pdf" type="button" class="btn btn-outline-secondary btn-xs"> {{< bi file-pdf >}} PDF </a>
 <a role="button" href="https://doi.org/10.7910/DVN/2MZE9D" type="button" class="btn btn-outline-secondary btn-xs"> {{< ai open-materials >}} Data and Code </a> 
